@@ -1,0 +1,2160 @@
+
+Map of Debug\stm8dalislave.sm8 from link file Debug\stm8dalislave.lkf - Fri Jul 22 16:12:56 2016
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008535 length  1205 segment .const
+start 00008550 end 00009f4c length  6652 segment .text
+start 00004000 end 000040bd length   189 segment .eeprom
+start 00000000 end 00000013 length    19 segment .bsct, initialized
+start 0000853d end 00008550 length    19 segment .bsct, from
+start 00000013 end 00000062 length    79 segment .ubsct
+start 00000062 end 00000062 length     0 segment .bit
+start 00000062 end 00000062 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00000a0e length  2574 segment .info.
+start 00000000 end 00007a48 length 31304 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008535 end 0000853d length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8:
+start 00008550 end 000085a0 length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000013 end 00000013 length     0 section .ubsct
+start 00000000 end 0000002f length    47 section .info.
+
+Debug\eeprom.o:
+start 000085a0 end 00008653 length   179 section .text
+start 00000000 end 0000204a length  8266 section .debug
+start 0000002f end 000000c0 length   145 section .info.
+start 00004000 end 0000407d length   125 section .eeprom
+
+Debug\dali_regs.o:
+start 00008653 end 000087f7 length   420 section .text
+start 00000013 end 0000001b length     8 section .ubsct
+start 0000204a end 00002519 length  1231 section .debug
+start 000000c0 end 00000154 length   148 section .info.
+
+Debug\dali_pub.o:
+start 000087f7 end 00008c41 length  1098 section .text
+start 00000000 end 00000004 length     4 section .bsct
+start 0000001b end 0000002b length    16 section .ubsct
+start 00002519 end 000038ed length  5076 section .debug
+start 00000154 end 000001e7 length   147 section .info.
+start 00008080 end 00008082 length     2 section .const
+
+Debug\dali_config.o:
+start 000038ed end 00003a1b length   302 section .debug
+start 000001e7 end 0000027d length   150 section .info.
+start 00008082 end 00008305 length   643 section .const
+
+Debug\dali_cmd.o:
+start 00008c41 end 00009682 length  2625 section .text
+start 0000002b end 00000032 length     7 section .ubsct
+start 00003a1b end 00005c90 length  8821 section .debug
+start 0000027d end 00000310 length   147 section .info.
+start 0000407d end 000040bd length    64 section .eeprom
+start 00008305 end 0000852d length   552 section .const
+
+Debug\dali.o:
+start 00009682 end 00009769 length   231 section .text
+start 00000004 end 00000005 length     1 section .bsct
+start 00000032 end 00000038 length     6 section .ubsct
+start 00005c90 end 00006199 length  1289 section .debug
+start 00000310 end 0000039f length   143 section .info.
+
+Debug\lite_timer_8bit.o:
+start 00009769 end 000097ea length   129 section .text
+start 00000038 end 00000047 length    15 section .ubsct
+start 00006199 end 000066b1 length  1304 section .debug
+start 0000039f end 00000439 length   154 section .info.
+
+Debug\main.o:
+start 000097ea end 0000987e length   148 section .text
+start 00000047 end 0000004a length     3 section .ubsct
+start 000066b1 end 000068b5 length   516 section .debug
+start 00000439 end 000004c8 length   143 section .info.
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\dalislave.o:
+start 0000987e end 00009b82 length   772 section .text
+start 00000005 end 00000013 length    14 section .bsct
+start 0000004a end 00000056 length    12 section .ubsct
+start 000068b5 end 00007236 length  2433 section .debug
+start 000004c8 end 0000055c length   148 section .info.
+start 0000852d end 00008531 length     4 section .const
+
+Debug\stm8s_it.o:
+start 00009b82 end 00009cd0 length   334 section .text
+start 00000056 end 00000058 length     2 section .ubsct
+start 00007236 end 00007922 length  1772 section .debug
+start 0000055c end 000005ef length   147 section .info.
+start 00008531 end 00008535 length     4 section .const
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)eeprom.o:
+start 00009cd0 end 00009d36 length   102 section .text
+start 000005ef end 0000061f length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)itol.o:
+start 00009d36 end 00009d42 length    12 section .text
+start 0000061f end 0000064d length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)itolx.o:
+start 00009d42 end 00009d50 length    14 section .text
+start 0000064d end 0000067c length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lcmp.o:
+start 00009d50 end 00009d70 length    32 section .text
+start 0000067c end 000006aa length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o:
+start 00009d70 end 00009d8f length    31 section .text
+start 000006aa end 000006d9 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ldiv.o:
+start 00009d8f end 00009e7a length   235 section .text
+start 000006d9 end 00000707 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lgadd.o:
+start 00009e7a end 00009e91 length    23 section .text
+start 00000707 end 00000736 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lgneg.o:
+start 00009e91 end 00009ea4 length    19 section .text
+start 00000736 end 00000765 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lgsbc.o:
+start 00009ea4 end 00009eba length    22 section .text
+start 00000765 end 00000794 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lneg.o:
+start 00009eba end 00009ecf length    21 section .text
+start 00000794 end 000007c2 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lreg.o:
+start 00000058 end 0000005c length     4 section .ubsct
+start 000007c2 end 000007f0 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ltor.o:
+start 00009ecf end 00009ee1 length    18 section .text
+start 000007f0 end 0000081e length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lzmp.o:
+start 00009ee1 end 00009ef4 length    19 section .text
+start 0000081e end 0000084c length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)rtol.o:
+start 00009ef4 end 00009f06 length    18 section .text
+start 0000084c end 0000087a length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)smul.o:
+start 00009f06 end 00009f45 length    63 section .text
+start 0000087a end 000008a8 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)utolx.o:
+start 00009f45 end 00009f4c length     7 section .text
+start 000008a8 end 000008d7 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)xreg.o:
+start 0000005c end 0000005f length     3 section .ubsct
+start 000008d7 end 00000905 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)yreg.o:
+start 0000005f end 00000062 length     3 section .ubsct
+start 00000905 end 00000933 length    46 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 00007922 end 00007a48 length   294 section .debug
+start 00000933 end 000009d3 length   160 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\dali.o:
+_DALI_CheckAndExecuteReceivedCommand                  51   (2)
+_DALI_CheckAndExecuteTimer                            31   (2)
+_DALI_Error                                            2   (2)
+_DALI_Init                                            25   (4)
+_DALI_Interrupt                                        2   (2)
+_DALI_Set_Lamp_Failure                                15   (2)
+_DALI_TimerStatus                                      2   (2)
+_DALI_halt                                             4   (2)
+_Get_DALI_Random                                       5   (3)
+_Send_DALI_Frame                                       4   (2)
+
+Debug\dali_cmd.o:
+_DALIC_Add_To_Group                               >   20   (4)
+_DALIC_Adjust_Actual_Level                            40   (5)
+_DALIC_BoundPhys                                      12   (4)
+_DALIC_Compare                                    >   18   (10)
+_DALIC_Direct_Arc                                     35   (4)
+_DALIC_Direct_Arc_NoFade                              25   (4)
+_DALIC_Down                                       >   23   (2)
+_DALIC_Enable_DAPC_Sequence                       >    6   (2)
+_DALIC_Enable_Device_Type_X                       >    5   (3)
+_DALIC_Enable_Write_Memory                        >    2   (2)
+_DALIC_Go_To_Scene                                >   38   (3)
+_DALIC_Init                                           10   (2)
+_DALIC_Initialize                                 >   14   (3)
+_DALIC_Is_Repeated                                     4   (2)
+_DALIC_Is_Repetiton_Fault                              3   (3)
+_DALIC_Is_Selected                                    11   (3)
+_DALIC_LaunchInit                                      4   (2)
+_DALIC_Mem_Checksum                                    5   (5)
+_DALIC_Off                                            22   (2)
+_DALIC_On_And_Step_Up                             >   26   (3)
+_DALIC_Physical_Selection                         >    2   (2)
+_DALIC_PowerOn                                        27   (2)
+_DALIC_ProcessCommand                                 49   (2)
+_DALIC_ProcessNormalCommand                           47   (3)
+_DALIC_ProcessSpecialCommand                          23   (4)
+_DALIC_Process_System_Failure                         25   (4)
+_DALIC_Program_Short_Address                      >   19   (3)
+_DALIC_Query_Application_Extended_Commands        >    7   (3)
+_DALIC_Query_Application_Extended_Version_Number  >    6   (2)
+_DALIC_Query_Ballast                              >    6   (2)
+_DALIC_Query_Content_DTR                          >    6   (2)
+_DALIC_Query_Content_DTR1                         >    6   (2)
+_DALIC_Query_Content_DTR2                         >    6   (2)
+_DALIC_Query_Device_Type                          >    6   (2)
+_DALIC_Query_Fade_Time_Rate                       >   11   (3)
+_DALIC_Query_Lamp_Failure                         >    6   (2)
+_DALIC_Query_Lamp_Power_On                        >    6   (2)
+_DALIC_Query_Limit_Error                          >    6   (2)
+_DALIC_Query_Missing_Short_Address                >    6   (2)
+_DALIC_Query_Power_Failure                        >    6   (2)
+_DALIC_Query_Reg_                                     10   (2)
+_DALIC_Query_Reg_Actual_Dim_Level                 >   12   (2)
+_DALIC_Query_Reg_Group_0_7                        >   12   (2)
+_DALIC_Query_Reg_Group_8_15                       >   12   (2)
+_DALIC_Query_Reg_Max_Level                        >   12   (2)
+_DALIC_Query_Reg_Min_Level                        >   12   (2)
+_DALIC_Query_Reg_Phys_Min_Level                   >   12   (2)
+_DALIC_Query_Reg_Power_On_Level                   >   12   (2)
+_DALIC_Query_Reg_Random_Address0                  >   12   (2)
+_DALIC_Query_Reg_Random_Address1                  >   12   (2)
+_DALIC_Query_Reg_Random_Address2                  >   12   (2)
+_DALIC_Query_Reg_Scene                            >   12   (2)
+_DALIC_Query_Reg_System_Failure_Level             >   12   (2)
+_DALIC_Query_Reg_Version_Number                   >   12   (2)
+_DALIC_Query_Reset_State                          >    6   (2)
+_DALIC_Query_Short_Address                        >   14   (3)
+_DALIC_Query_Status                               >   10   (2)
+_DALIC_Randomize                                  >   18   (2)
+_DALIC_Read_Memory_Location                       >    7   (3)
+_DALIC_Recall_Max_Level                           >   23   (2)
+_DALIC_Recall_Min_Level                           >   23   (2)
+_DALIC_Remove_From_Group                          >   20   (4)
+_DALIC_Remove_From_Scene                          >   19   (3)
+_DALIC_Reset                                      >   30   (3)
+_DALIC_SetDTR                                     >    2   (2)
+_DALIC_SetDTR1                                    >    2   (2)
+_DALIC_SetDTR2                                    >    2   (2)
+_DALIC_SetSearchAddress0                          >   19   (3)
+_DALIC_SetSearchAddress1                          >   19   (3)
+_DALIC_SetSearchAddress2                          >   19   (3)
+_DALIC_Step_Down                                  >   24   (3)
+_DALIC_Step_Down_And_Off                          >   26   (3)
+_DALIC_Step_Up                                    >   24   (3)
+_DALIC_StoreMinMax_DTR_As_                        >   20   (4)
+_DALIC_Store_Act_Level_To_DTR                     >   10   (2)
+_DALIC_Store_DTR_As_                                  19   (3)
+_DALIC_Store_DTR_As_Fade_Rate                     >   19   (3)
+_DALIC_Store_DTR_As_Fade_Time                     >   18   (2)
+_DALIC_Store_DTR_As_Max_Level                     >   44   (4)
+_DALIC_Store_DTR_As_Min_Level                     >   44   (4)
+_DALIC_Store_DTR_As_Power_On_Level                >   21   (2)
+_DALIC_Store_DTR_As_Scene                         >   21   (2)
+_DALIC_Store_DTR_As_Short                         >   18   (2)
+_DALIC_Store_DTR_As_System_Failure_Level          >   21   (2)
+_DALIC_Terminate                                  >    2   (2)
+_DALIC_Up                                         >   24   (3)
+_DALIC_Verify_Short_Address                       >   11   (3)
+_DALIC_Withdraw                                   >   13   (2)
+_DALIC_Write_Memory_Location                      >    8   (3)
+_DALIC_isTalkingToMe                                  11   (3)
+
+Debug\dali_pub.o:
+_DALIP_ConvertARC                                      4   (4)
+_DALIP_Direct_Arc                                     31   (13) *** pointer() ***
+_DALIP_Direct_Arc_NoFade                              21   (3) *** pointer() ***
+_DALIP_DoneTimer                                       4   (2)
+_DALIP_Down                                           21   (3) *** pointer() ***
+_DALIP_EEPROM_Size                                     4   (4)
+_DALIP_Enable_DAPC_Sequence                            4   (2)
+_DALIP_Ext_Cmd_Is_Answer_Required                      2   (2)
+_DALIP_Ext_Cmd_Is_Answer_YesNo                         2   (2)
+_DALIP_Extended_Command                                2   (2)
+_DALIP_Extended_Version_Number                         2   (2)
+_DALIP_GetArc                                         10   (2)
+_DALIP_GetFadeRate                                    10   (2)
+_DALIP_GetFadeTime                                    10   (2)
+_DALIP_GetMaxLevel                                    10   (2)
+_DALIP_GetMinLevel                                    10   (2)
+_DALIP_GetPhysMinLevel                            >   10   (2)
+_DALIP_GetPowerOnLevel                            >   10   (2)
+_DALIP_GetStatus                                  >   10   (2)
+_DALIP_GetSysFailureLevel                         >   10   (2)
+_DALIP_GetVersion                                 >   10   (2)
+_DALIP_HW_LIGHT_Set                                    2   (2)
+_DALIP_Init                                            2   (2)
+_DALIP_Is_Physically_Selected                          2   (2)
+_DALIP_LaunchTimer                                     4   (2)
+_DALIP_Off                                            20   (2) *** pointer() ***
+_DALIP_On_And_Step_Up                                 23   (2)
+_DALIP_Read_E2                                    >    7   (3)
+_DALIP_Recall_Max_Level                               21   (3) *** pointer() ***
+_DALIP_Recall_Min_Level                               21   (3) *** pointer() ***
+_DALIP_Reserved_Function                          >    2   (2)
+_DALIP_Reserved_Special_Function                       2   (2)
+_DALIP_SetArc                                         18   (2)
+_DALIP_SetBallastStatusFlag                       >    6   (2)
+_DALIP_SetFadeReadyFlag                                6   (2)
+_DALIP_SetLampFailureFlag                             13   (3)
+_DALIP_SetLampPowerOnFlag                              6   (2)
+_DALIP_SetPowerFailureFlag                        >    6   (2)
+_DALIP_Step_Down                                      21   (3) *** pointer() ***
+_DALIP_Step_Down_And_Off                              23   (2)
+_DALIP_Step_Up                                        21   (3) *** pointer() ***
+_DALIP_Stop_DAPC_Sequence                              4   (2)
+_DALIP_TimerCallback                                  23   (3) *** pointer() ***
+_DALIP_Try_DAPC_Sequence                               4   (2)
+_DALIP_Up                                             21   (3) *** pointer() ***
+_DALIP_What_Device_Type                                2   (2)
+_DALIP_Write_E2                                   >   10   (4)
+_DALIP_Write_E2_Buffer                            >   18   (7)
+
+Debug\dali_regs.o:
+_DALIR_DeleteShort                                     8   (2)
+_DALIR_Init                                            3   (3)
+_DALIR_LoadRegsFromE2                                  4   (2)
+_DALIR_ReadEEPROMReg                                   5   (3)
+_DALIR_ReadReg                                         8   (3)
+_DALIR_ReadStatusBit                                   2   (2)
+_DALIR_ResetRegs                                      19   (3)
+_DALIR_WriteEEPROMReg                                 10   (4)
+_DALIR_WriteReg                                       16   (6)
+_DALIR_WriteStatusBit                                  4   (4)
+
+Debug\dalislave.o:
+_DataReceived                                          2   (2)
+_ErrorFnc                                              2   (2)
+_RTC1msFnc                                             2   (2)
+_check_interface_failure                               6   (2) *** pointer() ***
+_count_answer_tick                                     2   (2)
+_get_DALIIN                                            2   (2)
+_get_DALIOUT                                           2   (2)
+_get_flag                                              2   (2)
+_get_timer_count                                       2   (2)
+_init_DALI                                            16   (16)
+_receive_data                                          2   (2)
+_receive_tick                                          6   (2) *** pointer() ***
+_send_data                                             2   (2)
+_send_tick                                             5   (2)
+_set_DALIOUT                                           3   (3)
+
+Debug\eeprom.o:
+_E2_ReadMem                                            2   (2)
+_E2_ResetEEPROM                                        4   (2)
+_E2_WriteBurst                                        11   (9)
+_E2_WriteMem                                           6   (4)
+_EEPROM_Init                                          21   (2)
+
+Debug\lite_timer_8bit.o:
+_Lite_timer_Interrupt                                  2   (2)
+_PowerOnTimerReset                                     2   (2)
+_Process_Lite_timer_IT                                29   (2)
+_RTC_DoneDAPCTimer                                     2   (2)
+_RTC_DoneUserTimer                                     2   (2)
+_RTC_LaunchBigTimer                                    2   (2)
+_RTC_LaunchDAPCTimer                                   2   (2)
+_RTC_LaunchTimer                                       2   (2)
+_RTC_LaunchUserTimer                                   2   (2)
+_Timer_Lite_Init                                       2   (2)
+
+Debug\main.o:
+_PWM_LED                                               4   (4)
+_assert_failed                                    >    6   (6)
+_main                                             >   55   (4)
+
+Debug\stm8s_it.o:
+f_ADC1_IRQHandler                                 >    6   (6)
+f_AWU_IRQHandler                                  >    6   (6)
+f_CLK_IRQHandler                                  >    6   (6)
+f_EEPROM_EEC_IRQHandler                           >    6   (6)
+f_EXTI_PORTA_IRQHandler                           >   14   (12)
+f_EXTI_PORTB_IRQHandler                           >   14   (12)
+f_EXTI_PORTC_IRQHandler                           >   14   (12)
+f_EXTI_PORTD_IRQHandler                           >   14   (12)
+f_EXTI_PORTE_IRQHandler                           >   14   (12)
+f_I2C_IRQHandler                                  >    6   (6)
+f_NonHandledInterrupt                             >    6   (6)
+f_SPI_IRQHandler                                  >    6   (6)
+f_TIM1_CAP_COM_IRQHandler                         >    6   (6)
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler                 >    6   (6)
+f_TIM2_CAP_COM_IRQHandler                         >    6   (6)
+f_TIM2_UPD_OVF_BRK_IRQHandler                     >    6   (6)
+f_TIM3_CAP_COM_IRQHandler                         >    6   (6)
+f_TIM3_UPD_OVF_BRK_IRQHandler                     >    6   (6)
+f_TIM4_UPD_OVF_IRQHandler                         >   22   (16) *** pointer() ***
+f_TLI_IRQHandler                                  >    6   (6)
+f_TRAP_IRQHandler                                 >    6   (6)
+f_UART2_RX_IRQHandler                             >    6   (6)
+f_UART2_TX_IRQHandler                             >    6   (6)
+
+Stack size: 77
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _DALIC_Add_To_Group: (4)
+   2      + _DALIC_Is_Repeated: (2)
+   3      |    + _RTC_LaunchTimer: (2)
+          | 
+   4      + _DALIR_ReadReg: (3)
+   5      |    + _DALIR_ReadEEPROMReg: (3)
+   6      |    |    + _E2_ReadMem: (2)
+          |    | 
+          | 
+   7      + _DALIR_WriteReg: (6)
+   8      |    + _DALIR_ReadReg --> 4
+   9      |    + _DALIR_ReadStatusBit: (2)
+  10      |    + _DALIR_WriteEEPROMReg: (4)
+  11      |    |    + _E2_WriteMem: (4)
+          |    | 
+  12      |    + _DALIR_WriteStatusBit: (4)
+          | 
+       
+  13 > _DALIC_Compare: (10)
+  14      + _DALIR_ReadReg --> 4
+  15      + _Send_DALI_Frame: (2)
+  16      |    + _send_data: (2)
+          | 
+       
+  17 > _DALIC_Down: (2)
+  18      + _DALIP_Down: (3)
+  19      |    + _DALIP_ConvertARC: (4)
+  20      |    + _DALIP_DoneTimer: (2)
+  21      |    |    + _RTC_DoneUserTimer: (2)
+          |    | 
+  22      |    + _DALIP_GetArc: (2)
+  23      |    |    + _DALIR_ReadReg --> 4
+          |    | 
+  24      |    + _DALIP_GetFadeRate: (2)
+  25      |    |    + _DALIR_ReadReg --> 4
+          |    | 
+  26      |    + _DALIP_GetMinLevel: (2)
+  27      |    |    + _DALIR_ReadReg --> 4
+          |    | 
+  28      |    + (_DALIP_HW_LIGHT_Set) ...
+  29      |    + _DALIP_LaunchTimer: (2)
+  30      |    |    + _RTC_LaunchUserTimer: (2)
+          |    | 
+  31      |    + _DALIP_SetArc: (2)
+  32      |    |    + _DALIR_WriteReg --> 7
+  33      |    |    + _PowerOnTimerReset: (2)
+          |    | 
+  34      |    + _DALIP_SetFadeReadyFlag: (2)
+  35      |    |    + _DALIR_WriteStatusBit --> 12
+          |    | 
+  36      |    + _DALIR_ReadStatusBit --> 9
+  37      |    + (_DALI_Error) ...
+  38      |    + (_DALI_Interrupt) ...
+  39      |    + (_DataReceived) ...
+  40      |    + (_ErrorFnc) ...
+  41      |    + (_Lite_timer_Interrupt) ...
+  42      |    + (_PWM_LED) ...
+  43      |    + (_RTC1msFnc) ...
+          | 
+  44      + _DALIP_Stop_DAPC_Sequence: (2)
+  45      |    + _RTC_DoneDAPCTimer: (2)
+          | 
+  46      + _DALIR_ReadReg --> 4
+       
+  47 > _DALIC_Enable_DAPC_Sequence: (2)
+  48      + _DALIP_Enable_DAPC_Sequence: (2)
+  49      |    + _RTC_LaunchDAPCTimer: (2)
+          | 
+       
+  50 > _DALIC_Enable_Device_Type_X: (3)
+  51      + _DALIP_What_Device_Type: (2)
+       
+  52 > _DALIC_Enable_Write_Memory: (2)
+
+  53 > _DALIC_Go_To_Scene: (3)
+  54      + _DALIC_Direct_Arc: (4)
+  55      |    + _DALIP_Direct_Arc: (13)
+  56      |    |    + _DALIP_ConvertARC --> 19
+  57      |    |    + _DALIP_DoneTimer --> 20
+  58      |    |    + _DALIP_GetArc --> 22
+  59      |    |    + _DALIP_GetFadeTime: (2)
+  60      |    |    |    + _DALIR_ReadReg --> 4
+          |    |    | 
+  61      |    |    + _DALIP_GetMaxLevel: (2)
+  62      |    |    |    + _DALIR_ReadReg --> 4
+          |    |    | 
+  63      |    |    + _DALIP_GetMinLevel --> 26
+  64      |    |    + (_DALIP_HW_LIGHT_Set) ...
+  65      |    |    + _DALIP_LaunchTimer --> 29
+  66      |    |    + _DALIP_SetArc --> 31
+  67      |    |    + _DALIP_SetFadeReadyFlag --> 34
+  68      |    |    + (_DALI_Error) ...
+  69      |    |    + (_DALI_Interrupt) ...
+  70      |    |    + (_DataReceived) ...
+  71      |    |    + (_ErrorFnc) ...
+  72      |    |    + (_Lite_timer_Interrupt) ...
+  73      |    |    + (_PWM_LED) ...
+  74      |    |    + (_RTC1msFnc) ...
+          |    | 
+  75      |    + _DALIP_Direct_Arc_NoFade: (3)
+  76      |    |    + _DALIP_ConvertARC --> 19
+  77      |    |    + _DALIP_DoneTimer --> 20
+  78      |    |    + _DALIP_GetArc --> 22
+  79      |    |    + (_DALIP_HW_LIGHT_Set) ...
+  80      |    |    + _DALIP_SetArc --> 31
+  81      |    |    + (_DALI_Error) ...
+  82      |    |    + (_DALI_Interrupt) ...
+  83      |    |    + (_DataReceived) ...
+  84      |    |    + (_ErrorFnc) ...
+  85      |    |    + (_Lite_timer_Interrupt) ...
+  86      |    |    + (_PWM_LED) ...
+  87      |    |    + (_RTC1msFnc) ...
+          |    | 
+  88      |    + _DALIP_DoneTimer --> 20
+  89      |    + _DALIP_GetArc --> 22
+  90      |    + _DALIP_GetFadeTime --> 59
+  91      |    + _DALIP_Off: (2)
+  92      |    |    + _DALIP_DoneTimer --> 20
+  93      |    |    + (_DALIP_HW_LIGHT_Set) ...
+  94      |    |    + _DALIP_SetArc --> 31
+  95      |    |    + (_DALI_Error) ...
+  96      |    |    + (_DALI_Interrupt) ...
+  97      |    |    + (_DataReceived) ...
+  98      |    |    + (_ErrorFnc) ...
+  99      |    |    + (_Lite_timer_Interrupt) ...
+ 100      |    |    + (_PWM_LED) ...
+ 101      |    |    + (_RTC1msFnc) ...
+          |    | 
+ 102      |    + _DALIP_Try_DAPC_Sequence: (2)
+ 103      |    |    + _RTC_LaunchDAPCTimer --> 49
+          |    | 
+ 104      |    + _DALIR_ReadReg --> 4
+ 105      |    + _DALIR_WriteStatusBit --> 12
+          | 
+ 106      + _DALIR_ReadReg --> 4
+ 107      + _DALIR_WriteStatusBit --> 12
+       
+ 108 > _DALIC_Initialize: (3)
+ 109      + _DALIC_Is_Repeated --> 2
+ 110      + _DALIC_LaunchInit: (2)
+ 111      |    + _RTC_LaunchBigTimer: (2)
+          | 
+ 112      + _DALIC_isTalkingToMe: (3)
+ 113      |    + _DALIR_ReadReg --> 4
+          | 
+ 114      + _DALIR_ReadReg --> 4
+       
+ 115 > _DALIC_On_And_Step_Up: (3)
+ 116      + _DALIP_On_And_Step_Up: (2)
+ 117      |    + _DALIP_Step_Up: (3)
+ 118      |    |    + _DALIP_ConvertARC --> 19
+ 119      |    |    + _DALIP_DoneTimer --> 20
+ 120      |    |    + _DALIP_GetArc --> 22
+ 121      |    |    + (_DALIP_HW_LIGHT_Set) ...
+ 122      |    |    + _DALIP_SetArc --> 31
+ 123      |    |    + _DALIR_ReadReg --> 4
+ 124      |    |    + (_DALI_Error) ...
+ 125      |    |    + (_DALI_Interrupt) ...
+ 126      |    |    + (_DataReceived) ...
+ 127      |    |    + (_ErrorFnc) ...
+ 128      |    |    + (_Lite_timer_Interrupt) ...
+ 129      |    |    + (_PWM_LED) ...
+ 130      |    |    + (_RTC1msFnc) ...
+          |    | 
+          | 
+ 131      + _DALIP_Stop_DAPC_Sequence --> 44
+ 132      + _DALIR_ReadReg --> 4
+ 133      + _DALIR_WriteStatusBit --> 12
+       
+ 134 > _DALIC_Physical_Selection: (2)
+
+ 135 > _DALIC_Program_Short_Address: (3)
+ 136      + _DALIC_Is_Selected: (3)
+ 137      |    + _DALIP_Is_Physically_Selected: (2)
+ 138      |    + _DALIR_ReadReg --> 4
+          | 
+ 139      + _DALIR_DeleteShort: (2)
+ 140      |    + _DALIR_WriteStatusBit --> 12
+ 141      |    + _E2_WriteMem --> 11
+          | 
+ 142      + _DALIR_WriteReg --> 7
+ 143      + _DALIR_WriteStatusBit --> 12
+       
+ 144 > _DALIC_Query_Application_Extended_Commands: (3)
+ 145      + _DALIP_Ext_Cmd_Is_Answer_Required: (2)
+ 146      + _DALIP_Ext_Cmd_Is_Answer_YesNo: (2)
+ 147      + _DALIP_Extended_Command: (2)
+ 148      + _Send_DALI_Frame --> 15
+       
+ 149 > _DALIC_Query_Application_Extended_Version_Number: (2)
+ 150      + _DALIP_Extended_Version_Number: (2)
+ 151      + _Send_DALI_Frame --> 15
+       
+ 152 > _DALIC_Query_Ballast: (2)
+ 153      + _DALIR_ReadStatusBit --> 9
+ 154      + _Send_DALI_Frame --> 15
+       
+ 155 > _DALIC_Query_Content_DTR: (2)
+ 156      + _Send_DALI_Frame --> 15
+       
+ 157 > _DALIC_Query_Content_DTR1: (2)
+ 158      + _Send_DALI_Frame --> 15
+       
+ 159 > _DALIC_Query_Content_DTR2: (2)
+ 160      + _Send_DALI_Frame --> 15
+       
+ 161 > _DALIC_Query_Device_Type: (2)
+ 162      + _DALIP_What_Device_Type --> 51
+ 163      + _Send_DALI_Frame --> 15
+       
+ 164 > _DALIC_Query_Fade_Time_Rate: (3)
+ 165      + _DALIR_ReadReg --> 4
+ 166      + _Send_DALI_Frame --> 15
+       
+ 167 > _DALIC_Query_Lamp_Failure: (2)
+ 168      + _DALIR_ReadStatusBit --> 9
+ 169      + _Send_DALI_Frame --> 15
+       
+ 170 > _DALIC_Query_Lamp_Power_On: (2)
+ 171      + _DALIR_ReadStatusBit --> 9
+ 172      + _Send_DALI_Frame --> 15
+       
+ 173 > _DALIC_Query_Limit_Error: (2)
+ 174      + _DALIR_ReadStatusBit --> 9
+ 175      + _Send_DALI_Frame --> 15
+       
+ 176 > _DALIC_Query_Missing_Short_Address: (2)
+ 177      + _DALIR_ReadStatusBit --> 9
+ 178      + _Send_DALI_Frame --> 15
+       
+ 179 > _DALIC_Query_Power_Failure: (2)
+ 180      + _DALIR_ReadStatusBit --> 9
+ 181      + _Send_DALI_Frame --> 15
+       
+ 182 > _DALIC_Query_Reg_Actual_Dim_Level: (2)
+ 183      + _DALIC_Query_Reg_: (2)
+ 184      |    + _DALIR_ReadReg --> 4
+ 185      |    + _Send_DALI_Frame --> 15
+          | 
+ 186      + _DALIR_ReadStatusBit --> 9
+ 187      + _Send_DALI_Frame --> 15
+       
+ 188 > _DALIC_Query_Reg_Group_0_7: (2)
+ 189      + _DALIC_Query_Reg_ --> 183
+       
+ 190 > _DALIC_Query_Reg_Group_8_15: (2)
+ 191      + _DALIC_Query_Reg_ --> 183
+       
+ 192 > _DALIC_Query_Reg_Max_Level: (2)
+ 193      + _DALIC_Query_Reg_ --> 183
+       
+ 194 > _DALIC_Query_Reg_Min_Level: (2)
+ 195      + _DALIC_Query_Reg_ --> 183
+       
+ 196 > _DALIC_Query_Reg_Phys_Min_Level: (2)
+ 197      + _DALIC_Query_Reg_ --> 183
+       
+ 198 > _DALIC_Query_Reg_Power_On_Level: (2)
+ 199      + _DALIC_Query_Reg_ --> 183
+       
+ 200 > _DALIC_Query_Reg_Random_Address0: (2)
+ 201      + _DALIC_Query_Reg_ --> 183
+       
+ 202 > _DALIC_Query_Reg_Random_Address1: (2)
+ 203      + _DALIC_Query_Reg_ --> 183
+       
+ 204 > _DALIC_Query_Reg_Random_Address2: (2)
+ 205      + _DALIC_Query_Reg_ --> 183
+       
+ 206 > _DALIC_Query_Reg_Scene: (2)
+ 207      + _DALIC_Query_Reg_ --> 183
+       
+ 208 > _DALIC_Query_Reg_System_Failure_Level: (2)
+ 209      + _DALIC_Query_Reg_ --> 183
+       
+ 210 > _DALIC_Query_Reg_Version_Number: (2)
+ 211      + _DALIC_Query_Reg_ --> 183
+       
+ 212 > _DALIC_Query_Reset_State: (2)
+ 213      + _DALIR_ReadStatusBit --> 9
+ 214      + _Send_DALI_Frame --> 15
+       
+ 215 > _DALIC_Query_Short_Address: (3)
+ 216      + _DALIC_Is_Selected --> 136
+ 217      + _DALIR_ReadReg --> 4
+ 218      + _Send_DALI_Frame --> 15
+       
+ 219 > _DALIC_Query_Status: (2)
+ 220      + _DALIR_ReadReg --> 4
+ 221      + _Send_DALI_Frame --> 15
+       
+ 222 > _DALIC_Randomize: (2)
+ 223      + _DALIC_Is_Repeated --> 2
+ 224      + _DALIR_WriteReg --> 7
+ 225      + _Get_DALI_Random: (3)
+ 226      |    + _get_timer_count: (2)
+          | 
+       
+ 227 > _DALIC_Read_Memory_Location: (3)
+ 228      + _Send_DALI_Frame --> 15
+       
+ 229 > _DALIC_Recall_Max_Level: (2)
+ 230      + _DALIP_Recall_Max_Level: (3)
+ 231      |    + _DALIP_ConvertARC --> 19
+ 232      |    + _DALIP_DoneTimer --> 20
+ 233      |    + (_DALIP_HW_LIGHT_Set) ...
+ 234      |    + _DALIP_SetArc --> 31
+ 235      |    + _DALIR_ReadReg --> 4
+ 236      |    + (_DALI_Error) ...
+ 237      |    + (_DALI_Interrupt) ...
+ 238      |    + (_DataReceived) ...
+ 239      |    + (_ErrorFnc) ...
+ 240      |    + (_Lite_timer_Interrupt) ...
+ 241      |    + (_PWM_LED) ...
+ 242      |    + (_RTC1msFnc) ...
+          | 
+ 243      + _DALIP_Stop_DAPC_Sequence --> 44
+ 244      + _DALIR_WriteStatusBit --> 12
+       
+ 245 > _DALIC_Recall_Min_Level: (2)
+ 246      + _DALIP_Recall_Min_Level: (3)
+ 247      |    + _DALIP_ConvertARC --> 19
+ 248      |    + _DALIP_DoneTimer --> 20
+ 249      |    + (_DALIP_HW_LIGHT_Set) ...
+ 250      |    + _DALIP_SetArc --> 31
+ 251      |    + _DALIR_ReadReg --> 4
+ 252      |    + (_DALI_Error) ...
+ 253      |    + (_DALI_Interrupt) ...
+ 254      |    + (_DataReceived) ...
+ 255      |    + (_ErrorFnc) ...
+ 256      |    + (_Lite_timer_Interrupt) ...
+ 257      |    + (_PWM_LED) ...
+ 258      |    + (_RTC1msFnc) ...
+          | 
+ 259      + _DALIP_Stop_DAPC_Sequence --> 44
+ 260      + _DALIR_WriteStatusBit --> 12
+       
+ 261 > _DALIC_Remove_From_Group: (4)
+ 262      + _DALIC_Is_Repeated --> 2
+ 263      + _DALIR_ReadReg --> 4
+ 264      + _DALIR_WriteReg --> 7
+       
+ 265 > _DALIC_Remove_From_Scene: (3)
+ 266      + _DALIC_Is_Repeated --> 2
+ 267      + _DALIR_WriteReg --> 7
+       
+ 268 > _DALIC_Reset: (3)
+ 269      + _DALIC_Direct_Arc_NoFade: (4)
+ 270      |    + _DALIP_Direct_Arc_NoFade --> 75
+ 271      |    + _DALIP_DoneTimer --> 20
+ 272      |    + _DALIP_Off --> 91
+ 273      |    + _DALIR_ReadReg --> 4
+ 274      |    + _DALIR_WriteStatusBit --> 12
+          | 
+ 275      + _DALIC_Is_Repeated --> 2
+ 276      + _DALIC_PowerOn: (2)
+ 277      |    + _DALIC_Direct_Arc_NoFade --> 269
+ 278      |    + _DALIR_ReadReg --> 4
+          | 
+ 279      + _DALIP_DoneTimer --> 20
+ 280      + _DALIP_GetArc --> 22
+ 281      + _DALIR_ResetRegs: (3)
+ 282      |    + _DALIR_ReadReg --> 4
+ 283      |    + _DALIR_WriteReg --> 7
+ 284      |    + _DALIR_WriteStatusBit --> 12
+ 285      |    + _E2_WriteBurst: (9)
+ 286      |    + _E2_WriteMem --> 11
+          | 
+       
+ 287 > _DALIC_SetDTR: (2)
+
+ 288 > _DALIC_SetDTR1: (2)
+
+ 289 > _DALIC_SetDTR2: (2)
+
+ 290 > _DALIC_SetSearchAddress0: (3)
+ 291      + _DALIR_WriteReg --> 7
+       
+ 292 > _DALIC_SetSearchAddress1: (3)
+ 293      + _DALIR_WriteReg --> 7
+       
+ 294 > _DALIC_SetSearchAddress2: (3)
+ 295      + _DALIR_WriteReg --> 7
+       
+ 296 > _DALIC_Step_Down: (3)
+ 297      + _DALIP_Step_Down: (3)
+ 298      |    + _DALIP_ConvertARC --> 19
+ 299      |    + _DALIP_DoneTimer --> 20
+ 300      |    + _DALIP_GetArc --> 22
+ 301      |    + (_DALIP_HW_LIGHT_Set) ...
+ 302      |    + _DALIP_SetArc --> 31
+ 303      |    + (_DALI_Error) ...
+ 304      |    + (_DALI_Interrupt) ...
+ 305      |    + (_DataReceived) ...
+ 306      |    + (_ErrorFnc) ...
+ 307      |    + (_Lite_timer_Interrupt) ...
+ 308      |    + (_PWM_LED) ...
+ 309      |    + (_RTC1msFnc) ...
+          | 
+ 310      + _DALIP_Stop_DAPC_Sequence --> 44
+ 311      + _DALIR_ReadReg --> 4
+       
+ 312 > _DALIC_Step_Down_And_Off: (3)
+ 313      + _DALIC_Off: (2)
+ 314      |    + _DALIP_Off --> 91
+ 315      |    + _DALIP_Stop_DAPC_Sequence --> 44
+ 316      |    + _DALIR_WriteStatusBit --> 12
+          | 
+ 317      + _DALIP_Step_Down_And_Off: (2)
+ 318      |    + _DALIP_Step_Down --> 297
+          | 
+ 319      + _DALIP_Stop_DAPC_Sequence --> 44
+ 320      + _DALIR_ReadReg --> 4
+ 321      + _DALIR_WriteStatusBit --> 12
+       
+ 322 > _DALIC_Step_Up: (3)
+ 323      + _DALIP_Step_Up --> 117
+ 324      + _DALIP_Stop_DAPC_Sequence --> 44
+ 325      + _DALIR_ReadReg --> 4
+       
+ 326 > _DALIC_StoreMinMax_DTR_As_: (4)
+ 327      + _DALIC_Is_Repeated --> 2
+ 328      + _DALIR_ReadReg --> 4
+ 329      + _DALIR_WriteReg --> 7
+       
+ 330 > _DALIC_Store_Act_Level_To_DTR: (2)
+ 331      + _DALIC_Is_Repeated --> 2
+ 332      + _DALIR_ReadReg --> 4
+       
+ 333 > _DALIC_Store_DTR_As_Fade_Rate: (3)
+ 334      + _DALIC_Is_Repeated --> 2
+ 335      + _DALIR_WriteReg --> 7
+       
+ 336 > _DALIC_Store_DTR_As_Fade_Time: (2)
+ 337      + _DALIC_Is_Repeated --> 2
+ 338      + _DALIR_WriteReg --> 7
+       
+ 339 > _DALIC_Store_DTR_As_Max_Level: (4)
+ 340      + _DALIC_Adjust_Actual_Level: (5)
+ 341      |    + _DALIC_Direct_Arc --> 54
+ 342      |    + _DALIR_ReadReg --> 4
+          | 
+ 343      + _DALIC_BoundPhys: (4)
+ 344      |    + _DALIR_ReadReg --> 4
+          | 
+ 345      + _DALIC_Is_Repeated --> 2
+ 346      + _DALIR_ReadReg --> 4
+ 347      + _DALIR_WriteReg --> 7
+       
+ 348 > _DALIC_Store_DTR_As_Min_Level: (4)
+ 349      + _DALIC_Adjust_Actual_Level --> 340
+ 350      + _DALIC_BoundPhys --> 343
+ 351      + _DALIC_Is_Repeated --> 2
+ 352      + _DALIR_ReadReg --> 4
+ 353      + _DALIR_WriteReg --> 7
+       
+ 354 > _DALIC_Store_DTR_As_Power_On_Level: (2)
+ 355      + _DALIC_Store_DTR_As_: (3)
+ 356      |    + _DALIC_Is_Repeated --> 2
+ 357      |    + _DALIR_WriteReg --> 7
+          | 
+       
+ 358 > _DALIC_Store_DTR_As_Scene: (2)
+ 359      + _DALIC_Store_DTR_As_ --> 355
+       
+ 360 > _DALIC_Store_DTR_As_Short: (2)
+ 361      + _DALIC_Is_Repeated --> 2
+ 362      + _DALIR_DeleteShort --> 139
+ 363      + _DALIR_WriteReg --> 7
+ 364      + _DALIR_WriteStatusBit --> 12
+       
+ 365 > _DALIC_Store_DTR_As_System_Failure_Level: (2)
+ 366      + _DALIC_Store_DTR_As_ --> 355
+       
+ 367 > _DALIC_Terminate: (2)
+
+ 368 > _DALIC_Up: (3)
+ 369      + _DALIP_Stop_DAPC_Sequence --> 44
+ 370      + _DALIP_Up: (3)
+ 371      |    + _DALIP_ConvertARC --> 19
+ 372      |    + _DALIP_DoneTimer --> 20
+ 373      |    + _DALIP_GetArc --> 22
+ 374      |    + _DALIP_GetFadeRate --> 24
+ 375      |    + _DALIP_GetMaxLevel --> 61
+ 376      |    + (_DALIP_HW_LIGHT_Set) ...
+ 377      |    + _DALIP_LaunchTimer --> 29
+ 378      |    + _DALIP_SetArc --> 31
+ 379      |    + _DALIP_SetFadeReadyFlag --> 34
+ 380      |    + _DALIR_ReadStatusBit --> 9
+ 381      |    + (_DALI_Error) ...
+ 382      |    + (_DALI_Interrupt) ...
+ 383      |    + (_DataReceived) ...
+ 384      |    + (_ErrorFnc) ...
+ 385      |    + (_Lite_timer_Interrupt) ...
+ 386      |    + (_PWM_LED) ...
+ 387      |    + (_RTC1msFnc) ...
+          | 
+ 388      + _DALIR_ReadReg --> 4
+       
+ 389 > _DALIC_Verify_Short_Address: (3)
+ 390      + _DALIR_ReadReg --> 4
+ 391      + _Send_DALI_Frame --> 15
+       
+ 392 > _DALIC_Withdraw: (2)
+ 393      + _DALIC_Is_Selected --> 136
+       
+ 394 > _DALIC_Write_Memory_Location: (3)
+ 395      + _DALIC_Mem_Checksum: (5)
+ 396      + _Send_DALI_Frame --> 15
+       
+ 397 > _DALIP_GetPhysMinLevel: (2)
+ 398      + _DALIR_ReadReg --> 4
+       
+ 399 > _DALIP_GetPowerOnLevel: (2)
+ 400      + _DALIR_ReadReg --> 4
+       
+ 401 > _DALIP_GetStatus: (2)
+ 402      + _DALIR_ReadReg --> 4
+       
+ 403 > _DALIP_GetSysFailureLevel: (2)
+ 404      + _DALIR_ReadReg --> 4
+       
+ 405 > _DALIP_GetVersion: (2)
+ 406      + _DALIR_ReadReg --> 4
+       
+ 407 > _DALIP_Read_E2: (3)
+ 408      + _DALIP_EEPROM_Size: (4)
+ 409      + _E2_ReadMem --> 6
+       
+ 410 > _DALIP_Reserved_Function: (2)
+
+ 411 > _DALIP_SetBallastStatusFlag: (2)
+ 412      + _DALIR_WriteStatusBit --> 12
+       
+ 413 > _DALIP_SetPowerFailureFlag: (2)
+ 414      + _DALIR_WriteStatusBit --> 12
+       
+ 415 > _DALIP_Write_E2: (4)
+ 416      + _DALIP_EEPROM_Size --> 408
+ 417      + _E2_WriteMem --> 11
+       
+ 418 > _DALIP_Write_E2_Buffer: (7)
+ 419      + _DALIP_EEPROM_Size --> 408
+ 420      + _E2_WriteBurst --> 285
+       
+ 421 > __stext: (0)
+
+ 422 > _assert_failed: (6)
+
+ 423 > _main: (4)
+ 424      + _DALI_CheckAndExecuteReceivedCommand: (2)
+ 425      |    + _DALIC_ProcessCommand: (2)
+ 426      |    |    + _DALIC_Is_Repetiton_Fault: (3)
+ 427      |    |    + _DALIC_ProcessNormalCommand: (3)
+ 428      |    |    |    + [_DALIC_Add_To_Group] --> 1
+ 429      |    |    |    + [_DALIC_Down] --> 17
+ 430      |    |    |    + [_DALIC_Enable_DAPC_Sequence] --> 47
+ 431      |    |    |    + [_DALIC_Enable_Write_Memory] --> 52
+ 432      |    |    |    + [_DALIC_Go_To_Scene] --> 53
+ 433      |    |    |    + [_DALIC_On_And_Step_Up] --> 115
+ 434      |    |    |    + [_DALIC_Query_Application_Extended_Commands] --> 144
+ 435      |    |    |    + [_DALIC_Query_Application_Extended_Version_Number] --> 149
+ 436      |    |    |    + [_DALIC_Query_Ballast] --> 152
+ 437      |    |    |    + [_DALIC_Query_Content_DTR] --> 155
+ 438      |    |    |    + [_DALIC_Query_Content_DTR1] --> 157
+ 439      |    |    |    + [_DALIC_Query_Content_DTR2] --> 159
+ 440      |    |    |    + [_DALIC_Query_Device_Type] --> 161
+ 441      |    |    |    + [_DALIC_Query_Fade_Time_Rate] --> 164
+ 442      |    |    |    + [_DALIC_Query_Lamp_Failure] --> 167
+ 443      |    |    |    + [_DALIC_Query_Lamp_Power_On] --> 170
+ 444      |    |    |    + [_DALIC_Query_Limit_Error] --> 173
+ 445      |    |    |    + [_DALIC_Query_Missing_Short_Address] --> 176
+ 446      |    |    |    + [_DALIC_Query_Power_Failure] --> 179
+ 447      |    |    |    + [_DALIC_Query_Reg_Actual_Dim_Level] --> 182
+ 448      |    |    |    + [_DALIC_Query_Reg_Group_0_7] --> 188
+ 449      |    |    |    + [_DALIC_Query_Reg_Group_8_15] --> 190
+ 450      |    |    |    + [_DALIC_Query_Reg_Max_Level] --> 192
+ 451      |    |    |    + [_DALIC_Query_Reg_Min_Level] --> 194
+ 452      |    |    |    + [_DALIC_Query_Reg_Phys_Min_Level] --> 196
+ 453      |    |    |    + [_DALIC_Query_Reg_Power_On_Level] --> 198
+ 454      |    |    |    + [_DALIC_Query_Reg_Random_Address0] --> 200
+ 455      |    |    |    + [_DALIC_Query_Reg_Random_Address1] --> 202
+ 456      |    |    |    + [_DALIC_Query_Reg_Random_Address2] --> 204
+ 457      |    |    |    + [_DALIC_Query_Reg_Scene] --> 206
+ 458      |    |    |    + [_DALIC_Query_Reg_System_Failure_Level] --> 208
+ 459      |    |    |    + [_DALIC_Query_Reg_Version_Number] --> 210
+ 460      |    |    |    + [_DALIC_Query_Reset_State] --> 212
+ 461      |    |    |    + [_DALIC_Query_Status] --> 219
+ 462      |    |    |    + [_DALIC_Read_Memory_Location] --> 227
+ 463      |    |    |    + [_DALIC_Recall_Max_Level] --> 229
+ 464      |    |    |    + [_DALIC_Recall_Min_Level] --> 245
+ 465      |    |    |    + [_DALIC_Remove_From_Group] --> 261
+ 466      |    |    |    + [_DALIC_Remove_From_Scene] --> 265
+ 467      |    |    |    + [_DALIC_Reset] --> 268
+ 468      |    |    |    + [_DALIC_Step_Down] --> 296
+ 469      |    |    |    + [_DALIC_Step_Down_And_Off] --> 312
+ 470      |    |    |    + [_DALIC_Step_Up] --> 322
+ 471      |    |    |    + [_DALIC_Store_Act_Level_To_DTR] --> 330
+ 472      |    |    |    + [_DALIC_Store_DTR_As_Fade_Rate] --> 333
+ 473      |    |    |    + [_DALIC_Store_DTR_As_Fade_Time] --> 336
+ 474      |    |    |    + [_DALIC_Store_DTR_As_Max_Level] --> 339
+ 475      |    |    |    + [_DALIC_Store_DTR_As_Min_Level] --> 348
+ 476      |    |    |    + [_DALIC_Store_DTR_As_Power_On_Level] --> 354
+ 477      |    |    |    + [_DALIC_Store_DTR_As_Scene] --> 358
+ 478      |    |    |    + [_DALIC_Store_DTR_As_Short] --> 360
+ 479      |    |    |    + [_DALIC_Store_DTR_As_System_Failure_Level] --> 365
+ 480      |    |    |    + [_DALIC_Up] --> 368
+ 481      |    |    |    + [_DALIP_Reserved_Function] --> 410
+ 482      |    |    |    + _DALIC_Direct_Arc --> 54
+ 483      |    |    |    + [_DALIC_Off] --> 313
+ 484      |    |    |    + _DALIR_WriteStatusBit --> 12
+          |    |    | 
+ 485      |    |    + _DALIC_ProcessSpecialCommand: (4)
+ 486      |    |    |    + [_DALIC_Compare] --> 13
+ 487      |    |    |    + [_DALIC_Enable_Device_Type_X] --> 50
+ 488      |    |    |    + [_DALIC_Initialize] --> 108
+ 489      |    |    |    + [_DALIC_Physical_Selection] --> 134
+ 490      |    |    |    + [_DALIC_Program_Short_Address] --> 135
+ 491      |    |    |    + [_DALIC_Query_Short_Address] --> 215
+ 492      |    |    |    + [_DALIC_Randomize] --> 222
+ 493      |    |    |    + [_DALIC_SetDTR] --> 287
+ 494      |    |    |    + [_DALIC_SetDTR1] --> 288
+ 495      |    |    |    + [_DALIC_SetDTR2] --> 289
+ 496      |    |    |    + [_DALIC_SetSearchAddress0] --> 290
+ 497      |    |    |    + [_DALIC_SetSearchAddress1] --> 292
+ 498      |    |    |    + [_DALIC_SetSearchAddress2] --> 294
+ 499      |    |    |    + [_DALIC_Terminate] --> 367
+ 500      |    |    |    + [_DALIC_Verify_Short_Address] --> 389
+ 501      |    |    |    + [_DALIC_Withdraw] --> 392
+ 502      |    |    |    + [_DALIC_Write_Memory_Location] --> 394
+ 503      |    |    |    + _DALIP_Reserved_Special_Function: (2)
+          |    |    | 
+          |    | 
+ 504      |    + _DALIC_Process_System_Failure: (4)
+ 505      |    |    + _DALIP_Direct_Arc_NoFade --> 75
+ 506      |    |    + _DALIP_Off --> 91
+ 507      |    |    + _DALIR_ReadReg --> 4
+ 508      |    |    + _DALIR_WriteStatusBit --> 12
+          |    | 
+ 509      |    + _DALIC_isTalkingToMe --> 112
+          | 
+ 510      + _DALI_CheckAndExecuteTimer: (2)
+ 511      |    + _Process_Lite_timer_IT: (2)
+ 512      |    |    + _DALIC_PowerOn --> 276
+ 513      |    |    + _DALIP_SetFadeReadyFlag --> 34
+ 514      |    |    + _DALIP_Stop_DAPC_Sequence --> 44
+ 515      |    |    + _DALIP_TimerCallback: (3)
+ 516      |    |    |    + _DALIP_ConvertARC --> 19
+ 517      |    |    |    + _DALIP_DoneTimer --> 20
+ 518      |    |    |    + _DALIP_GetArc --> 22
+ 519      |    |    |    + (_DALIP_HW_LIGHT_Set) ...
+ 520      |    |    |    + _DALIP_Off --> 91
+ 521      |    |    |    + _DALIP_SetArc --> 31
+ 522      |    |    |    + _DALIP_SetFadeReadyFlag --> 34
+ 523      |    |    |    + _DALIR_WriteStatusBit --> 12
+ 524      |    |    |    + (_DALI_Error) ...
+ 525      |    |    |    + (_DALI_Interrupt) ...
+ 526      |    |    |    + (_DataReceived) ...
+ 527      |    |    |    + (_ErrorFnc) ...
+ 528      |    |    |    + (_Lite_timer_Interrupt) ...
+ 529      |    |    |    + (_PWM_LED) ...
+ 530      |    |    |    + (_RTC1msFnc) ...
+          |    |    | 
+          |    | 
+          | 
+ 531      + _DALI_Init: (4)
+ 532      |    + _DALIC_Init: (2)
+ 533      |    |    + _DALIR_ReadReg --> 4
+ 534      |    |    + _DALIR_WriteStatusBit --> 12
+          |    | 
+ 535      |    + _DALIP_Init: (2)
+ 536      |    + _DALIR_Init: (3)
+ 537      |    + _EEPROM_Init: (2)
+ 538      |    |    + _DALIR_DeleteShort --> 139
+ 539      |    |    + _DALIR_LoadRegsFromE2: (2)
+ 540      |    |    |    + _E2_ReadMem --> 6
+          |    |    | 
+ 541      |    |    + _DALIR_ResetRegs --> 281
+ 542      |    |    + _E2_ResetEEPROM: (2)
+          |    | 
+ 543      |    + _Timer_Lite_Init: (2)
+ 544      |    + _init_DALI: (16)
+          | 
+ 545      + _DALI_Set_Lamp_Failure: (2)
+ 546      |    + _DALIP_SetLampFailureFlag: (3)
+ 547      |    |    + _DALIP_GetArc --> 22
+ 548      |    |    + _DALIP_SetLampPowerOnFlag: (2)
+ 549      |    |    |    + _DALIR_WriteStatusBit --> 12
+          |    |    | 
+ 550      |    |    + _DALIR_WriteStatusBit --> 12
+          |    | 
+          | 
+ 551      + _DALI_TimerStatus: (2)
+ 552      + _DALI_halt: (2)
+ 553      |    + _get_flag: (2)
+          | 
+       
+ 554 > f_ADC1_IRQHandler: (6)
+
+ 555 > f_AWU_IRQHandler: (6)
+
+ 556 > f_CLK_IRQHandler: (6)
+
+ 557 > f_EEPROM_EEC_IRQHandler: (6)
+
+ 558 > f_EXTI_PORTA_IRQHandler: (12)
+ 559      + _receive_data: (2)
+       
+ 560 > f_EXTI_PORTB_IRQHandler: (12)
+ 561      + _receive_data --> 559
+       
+ 562 > f_EXTI_PORTC_IRQHandler: (12)
+ 563      + _receive_data --> 559
+       
+ 564 > f_EXTI_PORTD_IRQHandler: (12)
+ 565      + _receive_data --> 559
+       
+ 566 > f_EXTI_PORTE_IRQHandler: (12)
+ 567      + _receive_data --> 559
+       
+ 568 > f_I2C_IRQHandler: (6)
+
+ 569 > f_NonHandledInterrupt: (6)
+
+ 570 > f_SPI_IRQHandler: (6)
+
+ 571 > f_TIM1_CAP_COM_IRQHandler: (6)
+
+ 572 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (6)
+
+ 573 > f_TIM2_CAP_COM_IRQHandler: (6)
+
+ 574 > f_TIM2_UPD_OVF_BRK_IRQHandler: (6)
+
+ 575 > f_TIM3_CAP_COM_IRQHandler: (6)
+
+ 576 > f_TIM3_UPD_OVF_BRK_IRQHandler: (6)
+
+ 577 > f_TIM4_UPD_OVF_IRQHandler: (16)
+ 578      + (_DALIP_HW_LIGHT_Set) ...
+ 579      + (_DALI_Error) ...
+ 580      + (_DALI_Interrupt) ...
+ 581      + (_DataReceived) ...
+ 582      + (_ErrorFnc) ...
+ 583      + (_Lite_timer_Interrupt) ...
+ 584      + (_PWM_LED) ...
+ 585      + (_RTC1msFnc) ...
+ 586      + _check_interface_failure: (2)
+ 587      |    + (_DALIP_HW_LIGHT_Set) ...
+ 588      |    + (_DALI_Error) ...
+ 589      |    + (_DALI_Interrupt) ...
+ 590      |    + (_DataReceived) ...
+ 591      |    + (_ErrorFnc) ...
+ 592      |    + (_Lite_timer_Interrupt) ...
+ 593      |    + (_PWM_LED) ...
+ 594      |    + (_RTC1msFnc) ...
+ 595      |    + _get_DALIIN: (2)
+          | 
+ 596      + _count_answer_tick: (2)
+ 597      + _get_flag --> 553
+ 598      + _receive_tick: (2)
+ 599      |    + (_DALIP_HW_LIGHT_Set) ...
+ 600      |    + (_DALI_Error) ...
+ 601      |    + (_DALI_Interrupt) ...
+ 602      |    + (_DataReceived) ...
+ 603      |    + (_ErrorFnc) ...
+ 604      |    + (_Lite_timer_Interrupt) ...
+ 605      |    + (_PWM_LED) ...
+ 606      |    + (_RTC1msFnc) ...
+ 607      |    + _get_DALIIN --> 595
+          | 
+ 608      + _send_tick: (2)
+ 609      |    + _get_DALIOUT: (2)
+ 610      |    + _set_DALIOUT: (3)
+          | 
+       
+ 611 > f_TLI_IRQHandler: (6)
+
+ 612 > f_TRAP_IRQHandler: (6)
+
+ 613 > f_UART2_RX_IRQHandler: (6)
+
+ 614 > f_UART2_TX_IRQHandler: (6)
+
+ 615   _DALIC_Adjust_Actual_Level --> 340
+
+ 616   _DALIC_BoundPhys --> 343
+
+ 617   _DALIC_Direct_Arc --> 54
+
+ 618   _DALIC_Direct_Arc_NoFade --> 269
+
+ 619   _DALIC_Init --> 532
+
+ 620   _DALIC_Is_Repeated --> 2
+
+ 621   _DALIC_Is_Repetiton_Fault --> 426
+
+ 622   _DALIC_Is_Selected --> 136
+
+ 623   _DALIC_LaunchInit --> 110
+
+ 624   _DALIC_Mem_Checksum --> 395
+
+ 625   _DALIC_Off --> 313
+
+ 626   _DALIC_PowerOn --> 276
+
+ 627   _DALIC_ProcessCommand --> 425
+
+ 628   _DALIC_ProcessNormalCommand --> 427
+
+ 629   _DALIC_ProcessSpecialCommand --> 485
+
+ 630   _DALIC_Process_System_Failure --> 504
+
+ 631   _DALIC_Query_Reg_ --> 183
+
+ 632   _DALIC_Store_DTR_As_ --> 355
+
+ 633   _DALIC_isTalkingToMe --> 112
+
+ 634   _DALIP_ConvertARC --> 19
+
+ 635   _DALIP_Direct_Arc --> 55
+
+ 636   _DALIP_Direct_Arc_NoFade --> 75
+
+ 637   _DALIP_DoneTimer --> 20
+
+ 638   _DALIP_Down --> 18
+
+ 639   _DALIP_EEPROM_Size --> 408
+
+ 640   _DALIP_Enable_DAPC_Sequence --> 48
+
+ 641   _DALIP_Ext_Cmd_Is_Answer_Required --> 145
+
+ 642   _DALIP_Ext_Cmd_Is_Answer_YesNo --> 146
+
+ 643   _DALIP_Extended_Command --> 147
+
+ 644   _DALIP_Extended_Version_Number --> 150
+
+ 645   _DALIP_GetArc --> 22
+
+ 646   _DALIP_GetFadeRate --> 24
+
+ 647   _DALIP_GetFadeTime --> 59
+
+ 648   _DALIP_GetMaxLevel --> 61
+
+ 649   _DALIP_GetMinLevel --> 26
+
+ 650   _DALIP_HW_LIGHT_Set: (2)
+
+ 651   _DALIP_Init --> 535
+
+ 652   _DALIP_Is_Physically_Selected --> 137
+
+ 653   _DALIP_LaunchTimer --> 29
+
+ 654   _DALIP_Off --> 91
+
+ 655   _DALIP_On_And_Step_Up --> 116
+
+ 656   _DALIP_Recall_Max_Level --> 230
+
+ 657   _DALIP_Recall_Min_Level --> 246
+
+ 658   _DALIP_Reserved_Special_Function --> 503
+
+ 659   _DALIP_SetArc --> 31
+
+ 660   _DALIP_SetFadeReadyFlag --> 34
+
+ 661   _DALIP_SetLampFailureFlag --> 546
+
+ 662   _DALIP_SetLampPowerOnFlag --> 548
+
+ 663   _DALIP_Step_Down --> 297
+
+ 664   _DALIP_Step_Down_And_Off --> 317
+
+ 665   _DALIP_Step_Up --> 117
+
+ 666   _DALIP_Stop_DAPC_Sequence --> 44
+
+ 667   _DALIP_TimerCallback --> 515
+
+ 668   _DALIP_Try_DAPC_Sequence --> 102
+
+ 669   _DALIP_Up --> 370
+
+ 670   _DALIP_What_Device_Type --> 51
+
+ 671   _DALIR_DeleteShort --> 139
+
+ 672   _DALIR_Init --> 536
+
+ 673   _DALIR_LoadRegsFromE2 --> 539
+
+ 674   _DALIR_ReadEEPROMReg --> 5
+
+ 675   _DALIR_ReadReg --> 4
+
+ 676   _DALIR_ReadStatusBit --> 9
+
+ 677   _DALIR_ResetRegs --> 281
+
+ 678   _DALIR_WriteEEPROMReg --> 10
+
+ 679   _DALIR_WriteReg --> 7
+
+ 680   _DALIR_WriteStatusBit --> 12
+
+ 681   _DALI_CheckAndExecuteReceivedCommand --> 424
+
+ 682   _DALI_CheckAndExecuteTimer --> 510
+
+ 683   _DALI_Error: (2)
+
+ 684   _DALI_Init --> 531
+
+ 685   _DALI_Interrupt: (2)
+
+ 686   _DALI_Set_Lamp_Failure --> 545
+
+ 687   _DALI_TimerStatus --> 551
+
+ 688   _DALI_halt --> 552
+
+ 689   _DataReceived: (2)
+
+ 690   _E2_ReadMem --> 6
+
+ 691   _E2_ResetEEPROM --> 542
+
+ 692   _E2_WriteBurst --> 285
+
+ 693   _E2_WriteMem --> 11
+
+ 694   _EEPROM_Init --> 537
+
+ 695   _ErrorFnc: (2)
+
+ 696   _Get_DALI_Random --> 225
+
+ 697   _Lite_timer_Interrupt: (2)
+
+ 698   _PWM_LED: (4)
+
+ 699   _PowerOnTimerReset --> 33
+
+ 700   _Process_Lite_timer_IT --> 511
+
+ 701   _RTC1msFnc: (2)
+
+ 702   _RTC_DoneDAPCTimer --> 45
+
+ 703   _RTC_DoneUserTimer --> 21
+
+ 704   _RTC_LaunchBigTimer --> 111
+
+ 705   _RTC_LaunchDAPCTimer --> 49
+
+ 706   _RTC_LaunchTimer --> 3
+
+ 707   _RTC_LaunchUserTimer --> 30
+
+ 708   _Send_DALI_Frame --> 15
+
+ 709   _Timer_Lite_Init --> 543
+
+ 710   _check_interface_failure --> 586
+
+ 711   _count_answer_tick --> 596
+
+ 712   _get_DALIIN --> 595
+
+ 713   _get_DALIOUT --> 609
+
+ 714   _get_flag --> 553
+
+ 715   _get_timer_count --> 226
+
+ 716   _init_DALI --> 544
+
+ 717   _receive_data --> 559
+
+ 718   _receive_tick --> 598
+
+ 719   _send_data --> 16
+
+ 720   _send_tick --> 608
+
+ 721   _set_DALIOUT --> 610
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC_CR1                                           00005401   defined in Debug\eeprom.o
+_ADC_CR2                                           00005402   defined in Debug\eeprom.o
+_ADC_CR3                                           00005403   defined in Debug\eeprom.o
+_ADC_CSR                                           00005400   defined in Debug\eeprom.o
+_ADC_DRH                                           00005404   defined in Debug\eeprom.o
+_ADC_DRL                                           00005405   defined in Debug\eeprom.o
+_ADC_TDRH                                          00005406   defined in Debug\eeprom.o
+_ADC_TDRL                                          00005407   defined in Debug\eeprom.o
+_AWU_APR                                           000050f1   defined in Debug\eeprom.o
+_AWU_CSR1                                          000050f0   defined in Debug\eeprom.o
+_AWU_TBR                                           000050f2   defined in Debug\eeprom.o
+_BEEP_CSR                                          000050f3   defined in Debug\eeprom.o
+_BusFailureTimer                                   00000038   defined in Debug\lite_timer_8bit.o section .ubsct
+_CAN_DGR                                           00005426   defined in Debug\eeprom.o
+_CAN_FPSR                                          00005427   defined in Debug\eeprom.o
+_CAN_IER                                           00005425   defined in Debug\eeprom.o
+_CAN_MCR                                           00005420   defined in Debug\eeprom.o
+_CAN_MSR                                           00005421   defined in Debug\eeprom.o
+_CAN_P0                                            00005428   defined in Debug\eeprom.o
+_CAN_P1                                            00005429   defined in Debug\eeprom.o
+_CAN_P2                                            0000542a   defined in Debug\eeprom.o
+_CAN_P3                                            0000542b   defined in Debug\eeprom.o
+_CAN_P4                                            0000542c   defined in Debug\eeprom.o
+_CAN_P5                                            0000542d   defined in Debug\eeprom.o
+_CAN_P6                                            0000542e   defined in Debug\eeprom.o
+_CAN_P7                                            0000542f   defined in Debug\eeprom.o
+_CAN_P8                                            00005430   defined in Debug\eeprom.o
+_CAN_P9                                            00005431   defined in Debug\eeprom.o
+_CAN_PA                                            00005432   defined in Debug\eeprom.o
+_CAN_PB                                            00005433   defined in Debug\eeprom.o
+_CAN_PC                                            00005434   defined in Debug\eeprom.o
+_CAN_PD                                            00005435   defined in Debug\eeprom.o
+_CAN_PE                                            00005436   defined in Debug\eeprom.o
+_CAN_PF                                            00005437   defined in Debug\eeprom.o
+_CAN_RFR                                           00005424   defined in Debug\eeprom.o
+_CAN_TPR                                           00005423   defined in Debug\eeprom.o
+_CAN_TSR                                           00005422   defined in Debug\eeprom.o
+_CFG_GCR                                           00007f60   defined in Debug\eeprom.o
+_CLK_CANCCR                                        000050cb   defined in Debug\eeprom.o
+_CLK_CCOR                                          000050c9   defined in Debug\eeprom.o
+_CLK_CKDIVR                                        000050c6   defined in Debug\eeprom.o
+_CLK_CMSR                                          000050c3   defined in Debug\eeprom.o
+_CLK_CSSR                                          000050c8   defined in Debug\eeprom.o
+_CLK_ECKCR                                         000050c1   defined in Debug\eeprom.o
+_CLK_HSITRIMR                                      000050cc   defined in Debug\eeprom.o
+_CLK_ICKCR                                         000050c0   defined in Debug\eeprom.o
+_CLK_PCKENR1                                       000050c7   defined in Debug\eeprom.o
+_CLK_PCKENR2                                       000050ca   defined in Debug\eeprom.o
+_CLK_SWCR                                          000050c5   defined in Debug\eeprom.o
+_CLK_SWIMCCR                                       000050cd   defined in Debug\eeprom.o
+_CLK_SWR                                           000050c4   defined in Debug\eeprom.o
+_DALIC_Add_To_Group                                00008fbf   defined in Debug\dali_cmd.o section .text
+_DALIC_Adjust_Actual_Level                         00009493   defined in Debug\dali_cmd.o section .text
+_DALIC_BoundPhys                                   00009479   defined in Debug\dali_cmd.o section .text
+_DALIC_Compare                                     00009295   defined in Debug\dali_cmd.o section .text
+_DALIC_Direct_Arc                                  00008e9e   defined in Debug\dali_cmd.o section .text
+_DALIC_Direct_Arc_NoFade                           00008cfa   defined in Debug\dali_cmd.o section .text
+_DALIC_Down                                        00009081   defined in Debug\dali_cmd.o section .text
+_DALIC_Enable_DAPC_Sequence                        00009458   defined in Debug\dali_cmd.o section .text
+_DALIC_Enable_Device_Type_X                        000093ad   defined in Debug\dali_cmd.o section .text
+_DALIC_Enable_Write_Memory                         000095aa   defined in Debug\dali_cmd.o section .text
+_DALIC_Go_To_Scene                                 00008f41   defined in Debug\dali_cmd.o section .text
+_DALIC_Init                                        00008c41   defined in Debug\dali_cmd.o section .text
+                                                              used in Debug\dali.o
+_DALIC_Initialize                                  00009230   defined in Debug\dali_cmd.o section .text
+_DALIC_Is_Repeated                                 00008d9b   defined in Debug\dali_cmd.o section .text
+_DALIC_Is_Repetiton_Fault                          00008dcd   defined in Debug\dali_cmd.o section .text
+_DALIC_Is_Selected                                 000091d5   defined in Debug\dali_cmd.o section .text
+_DALIC_LaunchInit                                  00009222   defined in Debug\dali_cmd.o section .text
+_DALIC_Mem_Checksum                                00009656   defined in Debug\dali_cmd.o section .text
+_DALIC_Off                                         000093fa   defined in Debug\dali_cmd.o section .text
+_DALIC_On_And_Step_Up                              00009434   defined in Debug\dali_cmd.o section .text
+_DALIC_Physical_Selection                          000093a3   defined in Debug\dali_cmd.o section .text
+_DALIC_PowerOn                                     00008c5a   defined in Debug\dali_cmd.o section .text
+                                                              used in Debug\lite_timer_8bit.o
+_DALIC_ProcessCommand                              00008e2a   defined in Debug\dali_cmd.o section .text
+                                                              used in Debug\dali.o
+_DALIC_ProcessNormalCommand                        00008e71   defined in Debug\dali_cmd.o section .text
+_DALIC_ProcessSpecialCommand                       00008e39   defined in Debug\dali_cmd.o section .text
+_DALIC_Process_System_Failure                      00008d4a   defined in Debug\dali_cmd.o section .text
+                                                              used in Debug\dali.o
+_DALIC_Program_Short_Address                       0000932e   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Application_Extended_Commands         00009194   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Application_Extended_Version_Number   000091c9   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Ballast                               000090fe   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Content_DTR                           00009156   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Content_DTR1                          0000915b   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Content_DTR2                          00009160   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Device_Type                           00009165   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Fade_Time_Rate                        00009179   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Lamp_Failure                          0000910a   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Lamp_Power_On                         00009118   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Limit_Error                           00009126   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Missing_Short_Address                 00009142   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Power_Failure                         0000916b   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_                                  00009150   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Actual_Dim_Level                  00009566   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Group_0_7                         00009591   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Group_8_15                        00009596   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Max_Level                         00009576   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Min_Level                         0000957b   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Phys_Min_Level                    00009561   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Power_On_Level                    00009580   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Random_Address0                   0000959b   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Random_Address1                   000095a0   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Random_Address2                   000095a5   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Scene                             0000958a   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_System_Failure_Level              00009585   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reg_Version_Number                    0000955c   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Reset_State                           00009134   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Short_Address                         0000938a   defined in Debug\dali_cmd.o section .text
+_DALIC_Query_Status                                000090f6   defined in Debug\dali_cmd.o section .text
+_DALIC_Randomize                                   0000926b   defined in Debug\dali_cmd.o section .text
+_DALIC_Read_Memory_Location                        000095af   defined in Debug\dali_cmd.o section .text
+_DALIC_Recall_Max_Level                            00008f11   defined in Debug\dali_cmd.o section .text
+_DALIC_Recall_Min_Level                            00008f29   defined in Debug\dali_cmd.o section .text
+_DALIC_Remove_From_Group                           00009011   defined in Debug\dali_cmd.o section .text
+_DALIC_Remove_From_Scene                           00008fa7   defined in Debug\dali_cmd.o section .text
+_DALIC_Reset                                       0000945b   defined in Debug\dali_cmd.o section .text
+_DALIC_SetDTR                                      000093bb   defined in Debug\dali_cmd.o section .text
+_DALIC_SetDTR1                                     000093be   defined in Debug\dali_cmd.o section .text
+_DALIC_SetDTR2                                     000093c1   defined in Debug\dali_cmd.o section .text
+_DALIC_SetSearchAddress0                           000093c4   defined in Debug\dali_cmd.o section .text
+_DALIC_SetSearchAddress1                           000093d6   defined in Debug\dali_cmd.o section .text
+_DALIC_SetSearchAddress2                           000093e8   defined in Debug\dali_cmd.o section .text
+_DALIC_Step_Down                                   000090ab   defined in Debug\dali_cmd.o section .text
+_DALIC_Step_Down_And_Off                           00009412   defined in Debug\dali_cmd.o section .text
+_DALIC_Step_Up                                     0000908f   defined in Debug\dali_cmd.o section .text
+_DALIC_StoreMinMax_DTR_As_                         00008f78   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_Act_Level_To_DTR                      00008f56   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_                               00008f64   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_Fade_Rate                      00009535   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_Fade_Time                      0000951c   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_Max_Level                      000094c0   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_Min_Level                      000094e9   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_Power_On_Level                 00009517   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_Scene                          00009555   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_Short                          000090c7   defined in Debug\dali_cmd.o section .text
+_DALIC_Store_DTR_As_System_Failure_Level           00009512   defined in Debug\dali_cmd.o section .text
+_DALIC_Terminate                                   00009264   defined in Debug\dali_cmd.o section .text
+_DALIC_Up                                          00009065   defined in Debug\dali_cmd.o section .text
+_DALIC_Verify_Short_Address                        00009363   defined in Debug\dali_cmd.o section .text
+_DALIC_Withdraw                                    0000931e   defined in Debug\dali_cmd.o section .text
+_DALIC_Write_Memory_Location                       000095eb   defined in Debug\dali_cmd.o section .text
+_DALIC_isTalkingToMe                               00008c6e   defined in Debug\dali_cmd.o section .text
+                                                              used in Debug\dali.o
+_DALIIN_invert                                     0000000c   defined in Debug\dalislave.o section .bsct, initialized
+_DALIIN_pin                                        0000000b   defined in Debug\dalislave.o section .bsct, initialized
+_DALIIN_port                                       00000009   defined in Debug\dalislave.o section .bsct, initialized
+                                                              used in Debug\stm8s_it.o
+_DALIOUT_invert                                    00000008   defined in Debug\dalislave.o section .bsct, initialized
+_DALIOUT_pin                                       00000007   defined in Debug\dalislave.o section .bsct, initialized
+_DALIOUT_port                                      00000005   defined in Debug\dalislave.o section .bsct, initialized
+_DALIP_ArcTable                                    000080a5   defined in Debug\dali_config.o section .const
+                                                              used in Debug\dali_pub.o
+_DALIP_ConvertARC                                  00008809   defined in Debug\dali_pub.o section .text
+_DALIP_CurveType                                   00000001   defined in Debug\dali_pub.o section .bsct, initialized
+                                                              used in Debug\dali_regs.o
+_DALIP_DTR                                         0000001d   defined in Debug\dali_pub.o section .ubsct
+_DALIP_Direct_Arc                                  00008954   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Direct_Arc_NoFade                           00008a46   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_DoneTimer                                   00008806   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Down                                        00008ac9   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_EEPROM_Size                                 000088fc   defined in Debug\dali_pub.o section .text
+_DALIP_Enable_DAPC_Sequence                        00008b21   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Ext_Cmd_Is_Answer_Required                  00008bb4   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Ext_Cmd_Is_Answer_YesNo                     00008bdc   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Extended_Command                            00008bde   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Extended_Version_Number                     00008c3e   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_FadeGoal                                    0000001c   defined in Debug\dali_pub.o section .ubsct
+_DALIP_FadeRateTable                               000082e5   defined in Debug\dali_config.o section .const
+                                                              used in Debug\dali_pub.o
+_DALIP_FadeTimeTable                               000082a5   defined in Debug\dali_config.o section .const
+                                                              used in Debug\dali_pub.o
+_DALIP_FastFade                                    00000000   defined in Debug\dali_pub.o section .bsct, initialized
+                                                              used in Debug\dali_regs.o
+_DALIP_GetArc                                      000088cb   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_GetFadeRate                                 000088d4   defined in Debug\dali_pub.o section .text
+_DALIP_GetFadeTime                                 000088cf   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_GetMaxLevel                                 000088d9   defined in Debug\dali_pub.o section .text
+_DALIP_GetMinLevel                                 000088de   defined in Debug\dali_pub.o section .text
+_DALIP_GetPhysMinLevel                             000088f7   defined in Debug\dali_pub.o section .text
+_DALIP_GetPowerOnLevel                             000088e3   defined in Debug\dali_pub.o section .text
+_DALIP_GetStatus                                   000088ed   defined in Debug\dali_pub.o section .text
+_DALIP_GetSysFailureLevel                          000088e8   defined in Debug\dali_pub.o section .text
+_DALIP_GetVersion                                  000088f2   defined in Debug\dali_pub.o section .text
+_DALIP_HW_LIGHT_Set                                00008802   defined in Debug\dali_pub.o section .text
+_DALIP_Init                                        000087f7   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali.o
+_DALIP_Is_Physically_Selected                      00008bae   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_LaunchTimer                                 00008803   defined in Debug\dali_pub.o section .text
+_DALIP_Off                                         00008a64   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_On_And_Step_Up                              00008bac   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Read_E2                                     000088ff   defined in Debug\dali_pub.o section .text
+_DALIP_Recall_Max_Level                            00008b76   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Recall_Min_Level                            00008b90   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Reserved_Function                           00008952   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Reserved_Special_Function                   00008953   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_SetArc                                      0000888d   defined in Debug\dali_pub.o section .text
+_DALIP_SetBallastStatusFlag                        00008896   defined in Debug\dali_pub.o section .text
+_DALIP_SetFadeReadyFlag                            000088bd   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\lite_timer_8bit.o
+_DALIP_SetLampFailureFlag                          0000889c   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali.o
+_DALIP_SetLampPowerOnFlag                          000088b6   defined in Debug\dali_pub.o section .text
+_DALIP_SetPowerFailureFlag                         000088c4   defined in Debug\dali_pub.o section .text
+_DALIP_Step_Down                                   00008b5d   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Step_Down_And_Off                           00008baa   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Step_Up                                     00008b36   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Stop_DAPC_Sequence                          00008b28   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+                                                                      Debug\lite_timer_8bit.o
+_DALIP_TimerCallback                               0000881b   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\lite_timer_8bit.o
+_DALIP_Try_DAPC_Sequence                           00008b2e   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Up                                          00008a6f   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_What_Device_Type                            00008bb1   defined in Debug\dali_pub.o section .text
+                                                              used in Debug\dali_cmd.o
+_DALIP_Write_E2                                    00008914   defined in Debug\dali_pub.o section .text
+_DALIP_Write_E2_Buffer                             00008928   defined in Debug\dali_pub.o section .text
+_DALIP_bEnable_DAPC                                0000001b   defined in Debug\dali_pub.o section .ubsct
+_DALIP_bIncrease                                   00000021   defined in Debug\dali_pub.o section .ubsct
+_DALIP_bOff_AfterFade                              00000020   defined in Debug\dali_pub.o section .ubsct
+_DALIP_iChangeCountdown                            00000022   defined in Debug\dali_pub.o section .ubsct
+_DALIP_iChangeEvery                                00000026   defined in Debug\dali_pub.o section .ubsct
+_DALIP_iMaxLevel                                   0000001f   defined in Debug\dali_pub.o section .ubsct
+_DALIP_iMinLevel                                   0000001e   defined in Debug\dali_pub.o section .ubsct
+_DALIR_DeleteShort                                 000087e7   defined in Debug\dali_regs.o section .text
+                                                              used in Debug\eeprom.o
+                                                                      Debug\dali_cmd.o
+_DALIR_Init                                        00008653   defined in Debug\dali_regs.o section .text
+                                                              used in Debug\dali.o
+_DALIR_LoadRegsFromE2                              000087df   defined in Debug\dali_regs.o section .text
+                                                              used in Debug\eeprom.o
+_DALIR_ReadEEPROMReg                               00008679   defined in Debug\dali_regs.o section .text
+_DALIR_ReadReg                                     0000868b   defined in Debug\dali_regs.o section .text
+                                                              used in Debug\dali_pub.o
+                                                                      Debug\dali_cmd.o
+_DALIR_ReadStatusBit                               00008763   defined in Debug\dali_regs.o section .text
+                                                              used in Debug\dali_pub.o
+                                                                      Debug\dali_cmd.o
+_DALIR_ResetRegs                                   00008771   defined in Debug\dali_regs.o section .text
+                                                              used in Debug\eeprom.o
+                                                                      Debug\dali_cmd.o
+_DALIR_WriteEEPROMReg                              00008665   defined in Debug\dali_regs.o section .text
+_DALIR_WriteReg                                    000086bb   defined in Debug\dali_regs.o section .text
+                                                              used in Debug\dali_pub.o
+                                                                      Debug\dali_cmd.o
+_DALIR_WriteStatusBit                              0000873a   defined in Debug\dali_regs.o section .text
+                                                              used in Debug\dali_pub.o
+                                                                      Debug\dali_cmd.o
+_DALI_CheckAndExecuteReceivedCommand               000096fd   defined in Debug\dali.o section .text
+                                                              used in Debug\main.o
+_DALI_CheckAndExecuteTimer                         000096f0   defined in Debug\dali.o section .text
+                                                              used in Debug\main.o
+_DALI_Error                                        0000968d   defined in Debug\dali.o section .text
+_DALI_Init                                         00009698   defined in Debug\dali.o section .text
+                                                              used in Debug\main.o
+_DALI_Interrupt                                    00009682   defined in Debug\dali.o section .text
+_DALI_Set_Lamp_Failure                             00009766   defined in Debug\dali.o section .text
+                                                              used in Debug\main.o
+_DALI_TimerStatus                                  000096ed   defined in Debug\dali.o section .text
+                                                              used in Debug\main.o
+_DALI_halt                                         00009721   defined in Debug\dali.o section .text
+                                                              used in Debug\main.o
+_DAPCTimerActive                                   0000003c   defined in Debug\lite_timer_8bit.o section .ubsct
+_DM_BK1RE                                          00007f90   defined in Debug\eeprom.o
+_DM_BK1RH                                          00007f91   defined in Debug\eeprom.o
+_DM_BK1RL                                          00007f92   defined in Debug\eeprom.o
+_DM_BK2RE                                          00007f93   defined in Debug\eeprom.o
+_DM_BK2RH                                          00007f94   defined in Debug\eeprom.o
+_DM_BK2RL                                          00007f95   defined in Debug\eeprom.o
+_DM_CR1                                            00007f96   defined in Debug\eeprom.o
+_DM_CR2                                            00007f97   defined in Debug\eeprom.o
+_DM_CSR1                                           00007f98   defined in Debug\eeprom.o
+_DM_CSR2                                           00007f99   defined in Debug\eeprom.o
+_DM_ENFCTR                                         00007f9a   defined in Debug\eeprom.o
+_DaliRegDefaults                                   00008082   defined in Debug\dali_config.o section .const
+                                                              used in Debug\dali_regs.o
+_DataReceived                                      00009a67   defined in Debug\dalislave.o section .text
+_DataReceivedCallback                              0000000d   defined in Debug\dalislave.o section .bsct, initialized
+_E2_ReadMem                                        0000864d   defined in Debug\eeprom.o section .text
+                                                              used in Debug\dali_regs.o
+                                                                      Debug\dali_pub.o
+_E2_ResetEEPROM                                    000085cd   defined in Debug\eeprom.o section .text
+_E2_WriteBurst                                     00008605   defined in Debug\eeprom.o section .text
+                                                              used in Debug\dali_regs.o
+                                                                      Debug\dali_pub.o
+_E2_WriteMem                                       000085ec   defined in Debug\eeprom.o section .text
+                                                              used in Debug\dali_regs.o
+                                                                      Debug\dali_pub.o
+_EEPROM_Init                                       000085a0   defined in Debug\eeprom.o section .text
+                                                              used in Debug\dali.o
+_EXTI_CR1                                          000050a0   defined in Debug\eeprom.o
+_EXTI_CR2                                          000050a1   defined in Debug\eeprom.o
+_ErrorCallback                                     00000011   defined in Debug\dalislave.o section .bsct, initialized
+_ErrorFnc                                          00009a69   defined in Debug\dalislave.o section .text
+_FLASH_CR1                                         0000505a   defined in Debug\eeprom.o
+_FLASH_CR2                                         0000505b   defined in Debug\eeprom.o
+                                                              used in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)eeprom.o
+_FLASH_DUKR                                        00005064   defined in Debug\eeprom.o
+_FLASH_FPR                                         0000505d   defined in Debug\eeprom.o
+_FLASH_IAPSR                                       0000505f   defined in Debug\eeprom.o
+                                                              used in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)eeprom.o
+_FLASH_NCR2                                        0000505c   defined in Debug\eeprom.o
+                                                              used in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)eeprom.o
+_FLASH_NFPR                                        0000505e   defined in Debug\eeprom.o
+_FLASH_PUKR                                        00005062   defined in Debug\eeprom.o
+_Get_DALI_Random                                   00009738   defined in Debug\dali.o section .text
+                                                              used in Debug\dali_cmd.o
+_HALTtimer                                         00000047   defined in Debug\main.o section .ubsct
+_I2C_CCRH                                          0000521c   defined in Debug\eeprom.o
+_I2C_CCRL                                          0000521b   defined in Debug\eeprom.o
+_I2C_CR1                                           00005210   defined in Debug\eeprom.o
+_I2C_CR2                                           00005211   defined in Debug\eeprom.o
+_I2C_DR                                            00005216   defined in Debug\eeprom.o
+_I2C_FREQR                                         00005212   defined in Debug\eeprom.o
+_I2C_ITR                                           0000521a   defined in Debug\eeprom.o
+_I2C_OARH                                          00005214   defined in Debug\eeprom.o
+_I2C_OARL                                          00005213   defined in Debug\eeprom.o
+_I2C_PECR                                          0000521e   defined in Debug\eeprom.o
+_I2C_SR1                                           00005217   defined in Debug\eeprom.o
+_I2C_SR2                                           00005218   defined in Debug\eeprom.o
+_I2C_SR3                                           00005219   defined in Debug\eeprom.o
+_I2C_TRISER                                        0000521d   defined in Debug\eeprom.o
+_ITC_SPR1                                          00007f70   defined in Debug\eeprom.o
+_ITC_SPR2                                          00007f71   defined in Debug\eeprom.o
+_ITC_SPR3                                          00007f72   defined in Debug\eeprom.o
+_ITC_SPR4                                          00007f73   defined in Debug\eeprom.o
+_ITC_SPR5                                          00007f74   defined in Debug\eeprom.o
+_ITC_SPR6                                          00007f75   defined in Debug\eeprom.o
+_ITC_SPR7                                          00007f76   defined in Debug\eeprom.o
+_ITC_SPR8                                          00007f77   defined in Debug\eeprom.o
+_IWDG_KR                                           000050e0   defined in Debug\eeprom.o
+_IWDG_PR                                           000050e1   defined in Debug\eeprom.o
+_IWDG_RLR                                          000050e2   defined in Debug\eeprom.o
+_InterfaceFailureCounter                           0000004d   defined in Debug\dalislave.o section .ubsct
+_LEDlight                                          00000049   defined in Debug\main.o section .ubsct
+_LightControlCallback                              00000002   defined in Debug\dali_pub.o section .bsct, initialized
+_Lite_timer_Interrupt                              000097c8   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali.o
+_PA_CR1                                            00005003   defined in Debug\eeprom.o
+_PA_CR2                                            00005004   defined in Debug\eeprom.o
+_PA_DDR                                            00005002   defined in Debug\eeprom.o
+_PA_IDR                                            00005001   defined in Debug\eeprom.o
+_PA_ODR                                            00005000   defined in Debug\eeprom.o
+_PB_CR1                                            00005008   defined in Debug\eeprom.o
+_PB_CR2                                            00005009   defined in Debug\eeprom.o
+_PB_DDR                                            00005007   defined in Debug\eeprom.o
+_PB_IDR                                            00005006   defined in Debug\eeprom.o
+_PB_ODR                                            00005005   defined in Debug\eeprom.o
+_PC_CR1                                            0000500d   defined in Debug\eeprom.o
+_PC_CR2                                            0000500e   defined in Debug\eeprom.o
+_PC_DDR                                            0000500c   defined in Debug\eeprom.o
+_PC_IDR                                            0000500b   defined in Debug\eeprom.o
+_PC_ODR                                            0000500a   defined in Debug\eeprom.o
+_PD_CR1                                            00005012   defined in Debug\eeprom.o
+_PD_CR2                                            00005013   defined in Debug\eeprom.o
+_PD_DDR                                            00005011   defined in Debug\eeprom.o
+_PD_IDR                                            00005010   defined in Debug\eeprom.o
+_PD_ODR                                            0000500f   defined in Debug\eeprom.o
+_PE_CR1                                            00005017   defined in Debug\eeprom.o
+_PE_CR2                                            00005018   defined in Debug\eeprom.o
+_PE_DDR                                            00005016   defined in Debug\eeprom.o
+_PE_IDR                                            00005015   defined in Debug\eeprom.o
+_PE_ODR                                            00005014   defined in Debug\eeprom.o
+_PF_CR1                                            0000501c   defined in Debug\eeprom.o
+_PF_CR2                                            0000501d   defined in Debug\eeprom.o
+_PF_DDR                                            0000501b   defined in Debug\eeprom.o
+_PF_IDR                                            0000501a   defined in Debug\eeprom.o
+_PF_ODR                                            00005019   defined in Debug\eeprom.o
+_PG_CR1                                            00005021   defined in Debug\eeprom.o
+_PG_CR2                                            00005022   defined in Debug\eeprom.o
+_PG_DDR                                            00005020   defined in Debug\eeprom.o
+_PG_IDR                                            0000501f   defined in Debug\eeprom.o
+_PG_ODR                                            0000501e   defined in Debug\eeprom.o
+_PH_CR1                                            00005026   defined in Debug\eeprom.o
+_PH_CR2                                            00005027   defined in Debug\eeprom.o
+_PH_DDR                                            00005025   defined in Debug\eeprom.o
+_PH_IDR                                            00005024   defined in Debug\eeprom.o
+_PH_ODR                                            00005023   defined in Debug\eeprom.o
+_PI_CR1                                            0000502b   defined in Debug\eeprom.o
+_PI_CR2                                            0000502c   defined in Debug\eeprom.o
+_PI_DDR                                            0000502a   defined in Debug\eeprom.o
+_PI_IDR                                            00005029   defined in Debug\eeprom.o
+_PI_ODR                                            00005028   defined in Debug\eeprom.o
+_PWM_LED                                           000097ea   defined in Debug\main.o section .text
+_Physically_Selected                               0000002a   defined in Debug\dali_pub.o section .ubsct
+                                                              used in Debug\main.o
+_PowerOnTimerActive                                0000003a   defined in Debug\lite_timer_8bit.o section .ubsct
+_PowerOnTimerReset                                 00009773   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali_pub.o
+_Process_Lite_timer_IT                             00009795   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali.o
+_RAMRegs                                           00000016   defined in Debug\dali_regs.o section .ubsct
+_ROMRegs                                           00008080   defined in Debug\dali_pub.o section .const
+                                                              used in Debug\dali_regs.o
+_RST_SR                                            000050b3   defined in Debug\eeprom.o
+_RTC1msFnc                                         00009a68   defined in Debug\dalislave.o section .text
+_RTC_1ms_Callback                                  0000000f   defined in Debug\dalislave.o section .bsct, initialized
+                                                              used in Debug\stm8s_it.o
+_RTC_DoneDAPCTimer                                 00009792   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali_pub.o
+_RTC_DoneUserTimer                                 0000978a   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali_pub.o
+_RTC_LaunchBigTimer                                00009777   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali_cmd.o
+_RTC_LaunchDAPCTimer                               0000978d   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali_pub.o
+_RTC_LaunchTimer                                   00009784   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali_cmd.o
+_RTC_LaunchUserTimer                               00009787   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali_pub.o
+_RealTimeClock_BigTimer                            00000045   defined in Debug\lite_timer_8bit.o section .ubsct
+                                                              used in Debug\dali_cmd.o
+_RealTimeClock_TimerCountDown                      00000043   defined in Debug\lite_timer_8bit.o section .ubsct
+                                                              used in Debug\dali_cmd.o
+_SPI_CR1                                           00005200   defined in Debug\eeprom.o
+_SPI_CR2                                           00005201   defined in Debug\eeprom.o
+_SPI_CRCPR                                         00005205   defined in Debug\eeprom.o
+_SPI_DR                                            00005204   defined in Debug\eeprom.o
+_SPI_ICR                                           00005202   defined in Debug\eeprom.o
+_SPI_RXCRCR                                        00005206   defined in Debug\eeprom.o
+_SPI_SR                                            00005203   defined in Debug\eeprom.o
+_SPI_TXCRCR                                        00005207   defined in Debug\eeprom.o
+_SWIM_CSR                                          00007f80   defined in Debug\eeprom.o
+_Send_DALI_Frame                                   00009730   defined in Debug\dali.o section .text
+                                                              used in Debug\dali_cmd.o
+_TIM1_ARRH                                         00005262   defined in Debug\eeprom.o
+_TIM1_ARRL                                         00005263   defined in Debug\eeprom.o
+_TIM1_BKR                                          0000526d   defined in Debug\eeprom.o
+_TIM1_CCER1                                        0000525c   defined in Debug\eeprom.o
+_TIM1_CCER2                                        0000525d   defined in Debug\eeprom.o
+_TIM1_CCMR1                                        00005258   defined in Debug\eeprom.o
+_TIM1_CCMR2                                        00005259   defined in Debug\eeprom.o
+_TIM1_CCMR3                                        0000525a   defined in Debug\eeprom.o
+_TIM1_CCMR4                                        0000525b   defined in Debug\eeprom.o
+_TIM1_CCR1H                                        00005265   defined in Debug\eeprom.o
+_TIM1_CCR1L                                        00005266   defined in Debug\eeprom.o
+_TIM1_CCR2H                                        00005267   defined in Debug\eeprom.o
+_TIM1_CCR2L                                        00005268   defined in Debug\eeprom.o
+_TIM1_CCR3H                                        00005269   defined in Debug\eeprom.o
+_TIM1_CCR3L                                        0000526a   defined in Debug\eeprom.o
+_TIM1_CCR4H                                        0000526b   defined in Debug\eeprom.o
+_TIM1_CCR4L                                        0000526c   defined in Debug\eeprom.o
+_TIM1_CNTRH                                        0000525e   defined in Debug\eeprom.o
+_TIM1_CNTRL                                        0000525f   defined in Debug\eeprom.o
+_TIM1_CR1                                          00005250   defined in Debug\eeprom.o
+_TIM1_CR2                                          00005251   defined in Debug\eeprom.o
+_TIM1_DTR                                          0000526e   defined in Debug\eeprom.o
+_TIM1_EGR                                          00005257   defined in Debug\eeprom.o
+_TIM1_ETR                                          00005253   defined in Debug\eeprom.o
+_TIM1_IER                                          00005254   defined in Debug\eeprom.o
+_TIM1_OISR                                         0000526f   defined in Debug\eeprom.o
+_TIM1_PSCRH                                        00005260   defined in Debug\eeprom.o
+_TIM1_PSCRL                                        00005261   defined in Debug\eeprom.o
+_TIM1_RCR                                          00005264   defined in Debug\eeprom.o
+_TIM1_SMCR                                         00005252   defined in Debug\eeprom.o
+_TIM1_SR1                                          00005255   defined in Debug\eeprom.o
+_TIM1_SR2                                          00005256   defined in Debug\eeprom.o
+_TIM2_ARRH                                         0000530d   defined in Debug\eeprom.o
+_TIM2_ARRL                                         0000530e   defined in Debug\eeprom.o
+_TIM2_CCER1                                        00005308   defined in Debug\eeprom.o
+_TIM2_CCER2                                        00005309   defined in Debug\eeprom.o
+_TIM2_CCMR1                                        00005305   defined in Debug\eeprom.o
+_TIM2_CCMR2                                        00005306   defined in Debug\eeprom.o
+_TIM2_CCMR3                                        00005307   defined in Debug\eeprom.o
+_TIM2_CCR1H                                        0000530f   defined in Debug\eeprom.o
+_TIM2_CCR1L                                        00005310   defined in Debug\eeprom.o
+_TIM2_CCR2H                                        00005311   defined in Debug\eeprom.o
+_TIM2_CCR2L                                        00005312   defined in Debug\eeprom.o
+_TIM2_CCR3H                                        00005313   defined in Debug\eeprom.o
+_TIM2_CCR3L                                        00005314   defined in Debug\eeprom.o
+_TIM2_CNTRH                                        0000530a   defined in Debug\eeprom.o
+_TIM2_CNTRL                                        0000530b   defined in Debug\eeprom.o
+_TIM2_CR1                                          00005300   defined in Debug\eeprom.o
+_TIM2_EGR                                          00005304   defined in Debug\eeprom.o
+_TIM2_IER                                          00005301   defined in Debug\eeprom.o
+_TIM2_PSCR                                         0000530c   defined in Debug\eeprom.o
+_TIM2_SR1                                          00005302   defined in Debug\eeprom.o
+_TIM2_SR2                                          00005303   defined in Debug\eeprom.o
+_TIM3_ARRH                                         0000532b   defined in Debug\eeprom.o
+_TIM3_ARRL                                         0000532c   defined in Debug\eeprom.o
+_TIM3_CCER1                                        00005327   defined in Debug\eeprom.o
+_TIM3_CCMR1                                        00005325   defined in Debug\eeprom.o
+_TIM3_CCMR2                                        00005326   defined in Debug\eeprom.o
+_TIM3_CCR1H                                        0000532d   defined in Debug\eeprom.o
+_TIM3_CCR1L                                        0000532e   defined in Debug\eeprom.o
+_TIM3_CCR2H                                        0000532f   defined in Debug\eeprom.o
+_TIM3_CCR2L                                        00005330   defined in Debug\eeprom.o
+_TIM3_CNTRH                                        00005328   defined in Debug\eeprom.o
+_TIM3_CNTRL                                        00005329   defined in Debug\eeprom.o
+_TIM3_CR1                                          00005320   defined in Debug\eeprom.o
+_TIM3_EGR                                          00005324   defined in Debug\eeprom.o
+_TIM3_IER                                          00005321   defined in Debug\eeprom.o
+_TIM3_PSCR                                         0000532a   defined in Debug\eeprom.o
+_TIM3_SR1                                          00005322   defined in Debug\eeprom.o
+_TIM3_SR2                                          00005323   defined in Debug\eeprom.o
+_TIM4_ARR                                          00005346   defined in Debug\eeprom.o
+_TIM4_CNTR                                         00005344   defined in Debug\eeprom.o
+_TIM4_CR1                                          00005340   defined in Debug\eeprom.o
+_TIM4_EGR                                          00005343   defined in Debug\eeprom.o
+_TIM4_IER                                          00005341   defined in Debug\eeprom.o
+_TIM4_PSCR                                         00005345   defined in Debug\eeprom.o
+_TIM4_SR                                           00005342   defined in Debug\eeprom.o
+_Timer_Lite_Init                                   00009769   defined in Debug\lite_timer_8bit.o section .text
+                                                              used in Debug\dali.o
+_USART1_BRR1                                       00005232   defined in Debug\eeprom.o
+_USART1_BRR2                                       00005233   defined in Debug\eeprom.o
+_USART1_CR1                                        00005234   defined in Debug\eeprom.o
+_USART1_CR2                                        00005235   defined in Debug\eeprom.o
+_USART1_CR3                                        00005236   defined in Debug\eeprom.o
+_USART1_CR4                                        00005237   defined in Debug\eeprom.o
+_USART1_CR5                                        00005238   defined in Debug\eeprom.o
+_USART1_DR                                         00005231   defined in Debug\eeprom.o
+_USART1_GTR                                        00005239   defined in Debug\eeprom.o
+_USART1_PSCR                                       0000523a   defined in Debug\eeprom.o
+_USART1_SR                                         00005230   defined in Debug\eeprom.o
+_USART3_BRR1                                       00005242   defined in Debug\eeprom.o
+_USART3_BRR2                                       00005243   defined in Debug\eeprom.o
+_USART3_CR1                                        00005244   defined in Debug\eeprom.o
+_USART3_CR2                                        00005245   defined in Debug\eeprom.o
+_USART3_CR3                                        00005246   defined in Debug\eeprom.o
+_USART3_CR4                                        00005247   defined in Debug\eeprom.o
+_USART3_CR6                                        00005249   defined in Debug\eeprom.o
+_USART3_DR                                         00005241   defined in Debug\eeprom.o
+_USART3_SR                                         00005240   defined in Debug\eeprom.o
+_UserTimerActive                                   0000003d   defined in Debug\lite_timer_8bit.o section .ubsct
+_WWDG_CR                                           000050d1   defined in Debug\eeprom.o
+_WWDG_WR                                           000050d2   defined in Debug\eeprom.o
+__endmem                                           000005ff   defined in command file
+                                                              *** not used ***
+__endzp                                            00000062   defined in command file section .ubsct
+                                                              used in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8
+__idesc__                                          00008535   defined in linker section .init
+                                                              used in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8
+__memory                                           00000100   defined in command file section .bss
+                                                              used in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8
+__stack                                            000007ff   defined in command file
+                                                              used in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8
+__startmem                                         00000100   defined in command file section .bss
+                                                              *** not used ***
+__stext                                            00008550   defined in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8 section .text
+                                                              used in Debug\stm8_interrupt_vector.o
+__vectab                                           00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_actual_val                                        0000004b   defined in Debug\dalislave.o section .ubsct
+_address                                           00000054   defined in Debug\dalislave.o section .ubsct
+_answer                                            00000055   defined in Debug\dalislave.o section .ubsct
+_assert_failed                                     0000987c   defined in Debug\main.o section .text
+_bigtimermins                                      00000040   defined in Debug\lite_timer_8bit.o section .ubsct
+_bigtimertics                                      0000003e   defined in Debug\lite_timer_8bit.o section .ubsct
+_bit_count                                         00000051   defined in Debug\dalislave.o section .ubsct
+_bit_value                                         0000004c   defined in Debug\dalislave.o section .ubsct
+_check_interface_failure                           00009b5f   defined in Debug\dalislave.o section .text
+                                                              used in Debug\stm8s_it.o
+_count_answer_tick                                 00009b59   defined in Debug\dalislave.o section .text
+                                                              used in Debug\stm8s_it.o
+_dali_address                                      00000037   defined in Debug\dali.o section .ubsct
+                                                              used in Debug\dali_cmd.o
+_dali_data                                         00000036   defined in Debug\dali.o section .ubsct
+                                                              used in Debug\dali_cmd.o
+_dali_error                                        00000034   defined in Debug\dali.o section .ubsct
+_dali_receive_status                               00000035   defined in Debug\dali.o section .ubsct
+_dali_state                                        00000033   defined in Debug\dali.o section .ubsct
+_dataByte                                          00000053   defined in Debug\dalislave.o section .ubsct
+_dtr                                               00000031   defined in Debug\dali_cmd.o section .ubsct
+                                                              used in Debug\dali_pub.o
+_eeprom_variable                                   00004000   defined in Debug\eeprom.o section .eeprom
+_exit                                              0000859e   defined in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8 section .text
+_flag                                              00000052   defined in Debug\dalislave.o section .ubsct
+_former_val                                        0000004a   defined in Debug\dalislave.o section .ubsct
+_get_DALIIN                                        00009899   defined in Debug\dalislave.o section .text
+_get_DALIOUT                                       00009a8f   defined in Debug\dalislave.o section .text
+_get_flag                                          00009a6a   defined in Debug\dalislave.o section .text
+                                                              used in Debug\dali.o
+                                                                      Debug\stm8s_it.o
+_get_timer_count                                   00009a6d   defined in Debug\dalislave.o section .text
+                                                              used in Debug\dali.o
+_init_DALI                                         00009977   defined in Debug\dalislave.o section .text
+                                                              used in Debug\dali.o
+_lite_timer_IT_state                               00000046   defined in Debug\lite_timer_8bit.o section .ubsct
+                                                              used in Debug\dali.o
+_main                                              00009819   defined in Debug\main.o section .text
+                                                              used in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8
+_membanks                                          0000407d   defined in Debug\dali_cmd.o section .eeprom
+_normal_jt                                         00008305   defined in Debug\dali_cmd.o section .const
+_oneMScounter                                      00000056   defined in Debug\stm8s_it.o section .ubsct
+                                                              used in Debug\dalislave.o
+_randbuf                                           00000013   defined in Debug\dali_regs.o section .ubsct
+_receive_data                                      0000987e   defined in Debug\dalislave.o section .text
+                                                              used in Debug\stm8s_it.o
+_receive_tick                                      000098b7   defined in Debug\dalislave.o section .text
+                                                              used in Debug\stm8s_it.o
+_send_data                                         00009aad   defined in Debug\dalislave.o section .text
+                                                              used in Debug\dali.o
+_send_tick                                         00009acb   defined in Debug\dalislave.o section .text
+                                                              used in Debug\stm8s_it.o
+_set_DALIOUT                                       00009a71   defined in Debug\dalislave.o section .text
+_short_addr                                        00000015   defined in Debug\dali_regs.o section .ubsct
+_special_jt                                        00008505   defined in Debug\dali_cmd.o section .const
+_tick_count                                        0000004f   defined in Debug\dalislave.o section .ubsct
+_timercounter                                      00000041   defined in Debug\lite_timer_8bit.o section .ubsct
+_version                                           ********   *** removed from Debug\main.o ***
+c_divsl                                            00009d8f   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ldiv.o section .text
+                                                              used in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o
+c_divul                                            00009da6   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ldiv.o section .text
+c_eewrc                                            00009ce6   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)eeprom.o section .text
+                                                              used in Debug\eeprom.o
+                                                                      Debug\dali_cmd.o
+c_eewrd                                            00009d19   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)eeprom.o section .text
+                                                              *** not used ***
+c_eewrw                                            00009cd0   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)eeprom.o section .text
+                                                              *** not used ***
+c_itol                                             00009d36   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)itol.o section .text
+                                                              used in Debug\dali_pub.o
+c_itolx                                            00009d42   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)itolx.o section .text
+                                                              used in Debug\dali_pub.o
+c_lcmp                                             00009d50   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lcmp.o section .text
+                                                              used in Debug\dalislave.o
+                                                                      Debug\stm8s_it.o
+c_ldiv                                             00009d70   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o section .text
+                                                              used in Debug\dali_pub.o
+c_lgadd                                            00009e7a   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lgadd.o section .text
+                                                              used in Debug\dali_pub.o
+c_lgneg                                            00009e91   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lgneg.o section .text
+                                                              used in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ldiv.o
+c_lgsbc                                            00009ea4   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lgsbc.o section .text
+                                                              used in Debug\dali_pub.o
+c_lneg                                             00009eba   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lneg.o section .text
+                                                              used in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ldiv.o
+c_lreg                                             00000058   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lreg.o section .ubsct
+                                                              used in Debug\stm8s_it.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)eeprom.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)itol.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)itolx.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lcmp.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ldiv.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lgadd.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lneg.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ltor.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)rtol.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)smul.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)utolx.o
+c_ltor                                             00009ecf   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ltor.o section .text
+                                                              used in Debug\dali_pub.o
+c_lzmp                                             00009ee1   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lzmp.o section .text
+                                                              used in Debug\dali_pub.o
+c_rtol                                             00009ef4   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)rtol.o section .text
+                                                              used in Debug\dali_pub.o
+c_smul                                             00009f06   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)smul.o section .text
+                                                              used in Debug\dali_pub.o
+c_uitolx                                           00009f45   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)utolx.o section .text
+                                                              used in Debug\dali_pub.o
+                                                                      Debug\dalislave.o
+                                                                      Debug\stm8s_it.o
+c_x                                                0000005c   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)xreg.o section .ubsct
+                                                              used in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8
+                                                                      Debug\stm8s_it.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o
+                                                                      (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)ldiv.o
+c_y                                                0000005f   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\libm0.sm8)yreg.o section .ubsct
+                                                              used in C:\Program Files (x86)\COSMIC\CXSTM8_32K\Lib\crtsi0.sm8
+                                                                      Debug\dali_cmd.o
+                                                                      Debug\stm8s_it.o
+f_ADC1_IRQHandler                                  00009c5e   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_AWU_IRQHandler                                   00009b85   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_CLK_IRQHandler                                   00009b86   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_EEPROM_EEC_IRQHandler                            00009ccf   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_EXTI_PORTA_IRQHandler                            00009b87   defined in Debug\stm8s_it.o section .text
+                                                              used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTB_IRQHandler                            00009bb0   defined in Debug\stm8s_it.o section .text
+                                                              used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTC_IRQHandler                            00009bd9   defined in Debug\stm8s_it.o section .text
+                                                              used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTD_IRQHandler                            00009c02   defined in Debug\stm8s_it.o section .text
+                                                              used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTE_IRQHandler                            00009c2b   defined in Debug\stm8s_it.o section .text
+                                                              used in Debug\stm8_interrupt_vector.o
+f_I2C_IRQHandler                                   00009c5b   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_NonHandledInterrupt                              00009b82   defined in Debug\stm8s_it.o section .text
+                                                              used in Debug\stm8_interrupt_vector.o
+f_SPI_IRQHandler                                   00009c54   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_TIM1_CAP_COM_IRQHandler                          00009c56   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler                  00009c55   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_TIM2_CAP_COM_IRQHandler                          00009c58   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_TIM2_UPD_OVF_BRK_IRQHandler                      00009c57   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_TIM3_CAP_COM_IRQHandler                          00009c5a   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_TIM3_UPD_OVF_BRK_IRQHandler                      00009c59   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_TIM4_UPD_OVF_IRQHandler                          00009c5f   defined in Debug\stm8s_it.o section .text
+                                                              used in Debug\stm8_interrupt_vector.o
+f_TLI_IRQHandler                                   00009b84   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_TRAP_IRQHandler                                  00009b83   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_UART2_RX_IRQHandler                              00009c5d   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
+f_UART2_TX_IRQHandler                              00009c5c   defined in Debug\stm8s_it.o section .text
+                                                              *** not used ***
